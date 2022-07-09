@@ -8,11 +8,6 @@ For more information, please visit the [project website](https://www.cmu.edu/psc
 
 ## Components and GitHub repositories
 
-* Main/Description (landing-page) Web Portal: [https://bluetides.psc.edu](https://bluetides.psc.edu)
-* Data-sharing Web Portal: [https://bluetides-portal.psc.edu/](https://bluetides-portal.psc.edu/) 
-    * Globus anonymous endpoint 
-    * Globus transfer endpoint
-* API Access (API for querying the information): [https://bluetides-api.psc.edu/](https://bluetides-api.psc.edu/) 
-* API Reference: [https://bluetides.psc.edu/api-reference/](https://bluetides.psc.edu/api-reference/) 
-* API Tutorial: [https://bluetides.psc.edu/tutorial/](https://bluetides.psc.edu/tutorial/)
-* API Docs (interactive API documentation): [https://bluetides-api.psc.edu/docs/](https://bluetides-api.psc.edu/docs/) 
+* bluetides-landing-description-portal: contains the landing-page/Description Portal project files.
+* bluetides-data-sharing-portal: contains the Data-sharing Portal project files.
+* bluetides-api: contains the API Portal project files.
