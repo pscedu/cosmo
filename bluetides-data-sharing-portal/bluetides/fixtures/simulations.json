@@ -1,0 +1,9 @@
+[
+  {
+    "model": "bluetides.simulation",
+    "pk": 1,
+    "fields": {
+      "name": "BlueTides Simulation"
+    }
+  }
+]

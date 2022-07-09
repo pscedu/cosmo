@@ -1,0 +1,36 @@
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <form action="/download_modal/" method="POST" id="email-submission-form">
+            <div class="modal-header">
+                <h5 class="modal-title">Data Access</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <label for="email-input">Please enter your email to request access to the data set.</label>
+                <input name="email-input" id="email-input" type="email" class="form-control" placeholder="your@email.com" required>
+                <input name="file-requested-input" id="file-requested-input" type="hidden" value="{{ file_requested }}">
+            </div>
+            <div class="modal-footer">
+            <button id="email-btn" type="submit" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            {% csrf_token %}
+        </form>
+    </div>
+</div>
+
+<script>
+    $("#email-submission-form").submit(function(e){
+        e.preventDefault();
+        $.ajax({
+            url: "/download_modal/" + $("#file-requested-input").val() + "/",
+            type: 'POST',
+            data:$(this).serialize(),
+            success:function(data){
+                $("#modal").empty().append(data);
+            }
+        })
+    });
+</script>

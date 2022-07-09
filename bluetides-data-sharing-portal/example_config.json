@@ -1,0 +1,21 @@
+{
+  "DATABASES": {
+    "default": {
+      "ENGINE": "",
+      "NAME": ""
+    }
+  },
+  "DEBUG": false,
+  "SECRET_KEY": "SECRET_KEY",
+  "ALLOWED_HOSTS": [
+    "localhost"
+  ],
+  "EMAIL_HOST": "",
+  "EMAIL_HOST_PASSWORD": "",
+  "EMAIL_HOST_USER": "",
+  "EMAIL_PORT": "",
+  "EMAIL_BACKEND": "",
+  "EMAIL_USE_TLS": false,
+  "BASE_COSMO": "",
+  "BASE_API": ""
+}

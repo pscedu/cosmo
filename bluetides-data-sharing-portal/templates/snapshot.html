@@ -1,0 +1,56 @@
+{% extends 'header.html' %}
+{% load util_filters %}
+{% block content %}
+    <h2 class="mt-3">Snapshots</h2>
+    <p style="font-weight: bold;">Overview/<a href="{% url "simulation" pk=snapshot.simulation_id %}">{{ simulation.name }} Simulation</a>/Snapshots (Data Downloads)/{{ snapshot.name }}</p>
+
+    <table class="table table-sm table-striped table-bordered table-condensed table-hover">
+        <tbody>
+            <tr>
+                <th>Parameter Description</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td class="name">Snapshot #</td>
+                <td class="name">{{ snapshot.id }}</td>
+            </tr>
+            <tr>
+                <td class="name">Redshift</td>
+                <td class="name">{{ snapshot.redshift }}</td>
+            </tr>
+            <tr style="">
+                <td class="name">Age [Gyr]</td>
+                <td class="name">{{ snapshot.age }}</td>
+            </tr>
+            <tr style="">
+                {# TODO: Replace with actual field #}
+                <td class="name">Lookback [Gyr]</td>
+                <td class="name">13.698</td>
+            </tr>
+            <tr style="">
+                <td class="name">Gas cells [#]</td>
+                <td class="name">{{ snapshot.gas_in_group }}</td>
+            </tr>
+            <tr style="">
+                <td class="name">Stars [#]</td>
+                <td class="name">{{ snapshot.stars }}</td>
+            </tr>
+            <tr style="">
+                <td class="name">Black Holes [#]</td>
+                <td class="name">{{ snapshot.black_holes }}</td>
+            </tr>
+            <tr style="">
+                <td class="name">FoF Groups [#]</td>
+                <td class="name">{{ snapshot.fof_groups }}</td>
+            </tr>
+            <tr style="">
+                <td class="name">FoF Groups Catalog</td>
+                <td class="name"><a class="text-primary" href="{% url "fofgroups" pk=snapshot.id %}">Browse</a> ({{ fof_group_size|pretty_print_bytes}}) </td>
+            </tr>
+            <tr style="">
+                <td class="name">Particles in Group Catalog</td>
+                <td class="name"><a class="text-primary" href="{% url "species" pk=snapshot.id %}">Browse</a> ({{ species_size|pretty_print_bytes}}) </td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}

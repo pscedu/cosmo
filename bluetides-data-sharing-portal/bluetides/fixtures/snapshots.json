@@ -1,0 +1,512 @@
+[
+  {
+    "model": "bluetides.snapshot",
+    "pk": 27,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_027",
+      "age": 0.231,
+      "lookback": 0.0,
+      "redshift": 17.0,
+      "dark_matter_in_group": 7415093,
+      "gas_in_group": 8453994,
+      "stars": 5144,
+      "black_holes": 0,
+      "fof_groups": 293340,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 30,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_030",
+      "age": 0.252,
+      "lookback": 0.0,
+      "redshift": 16.0,
+      "dark_matter_in_group": 22045290,
+      "gas_in_group": 24837265,
+      "stars": 16996,
+      "black_holes": 0,
+      "fof_groups": 827451,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 35,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_035",
+      "age": 0.275,
+      "lookback": 0.0,
+      "redshift": 15.0,
+      "dark_matter_in_group": 62255384,
+      "gas_in_group": 69193585,
+      "stars": 72790,
+      "black_holes": 0,
+      "fof_groups": 2201578,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 37,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_037",
+      "age": 0.303,
+      "lookback": 0.0,
+      "redshift": 14.0,
+      "dark_matter_in_group": 161078705,
+      "gas_in_group": 176658339,
+      "stars": 248478,
+      "black_holes": 0,
+      "fof_groups": 5332371,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 40,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_040",
+      "age": 0.337,
+      "lookback": 0.0,
+      "redshift": 13.0,
+      "dark_matter_in_group": 388142188,
+      "gas_in_group": 420150453,
+      "stars": 762079,
+      "black_holes": 10,
+      "fof_groups": 11959804,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 44,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_044",
+      "age": 0.376,
+      "lookback": 0.0,
+      "redshift": 12.0,
+      "dark_matter_in_group": 866911912,
+      "gas_in_group": 928640655,
+      "stars": 2371855,
+      "black_holes": 50,
+      "fof_groups": 24740312,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 48,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_048",
+      "age": 0.424,
+      "lookback": 0.0,
+      "redshift": 11.0,
+      "dark_matter_in_group": 1810942836,
+      "gas_in_group": 1923946162,
+      "stars": 6660029,
+      "black_holes": 496,
+      "fof_groups": 47488084,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 54,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_054",
+      "age": 0.483,
+      "lookback": 0.0,
+      "redshift": 10.0,
+      "dark_matter_in_group": 3508629372,
+      "gas_in_group": 3707267489,
+      "stars": 19154006,
+      "black_holes": 2496,
+      "fof_groups": 83453094,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 66,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_066",
+      "age": 0.557,
+      "lookback": 0.0,
+      "redshift": 9.0,
+      "dark_matter_in_group": 6350551335,
+      "gas_in_group": 6741991532,
+      "stars": 52724614,
+      "black_holes": 11332,
+      "fof_groups": 135386676,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 86,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_086",
+      "age": 0.653,
+      "lookback": 0.0,
+      "redshift": 8.0,
+      "dark_matter_in_group": 10698652247,
+      "gas_in_group": 11509203040,
+      "stars": 141528262,
+      "black_holes": 51942,
+      "fof_groups": 200062344,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 92,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_092",
+      "age": 0.658,
+      "lookback": 0.0,
+      "redshift": 7.95,
+      "dark_matter_in_group": 10958138956,
+      "gas_in_group": 11804550069,
+      "stars": 145079287,
+      "black_holes": 57933,
+      "fof_groups": 203393616,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 95,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_095",
+      "age": 0.669,
+      "lookback": 0.0,
+      "redshift": 7.85,
+      "dark_matter_in_group": 11504184819,
+      "gas_in_group": 12424358419,
+      "stars": 160517007,
+      "black_holes": 65385,
+      "fof_groups": 210349174,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 105,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_150",
+      "age": 0.681,
+      "lookback": 0.0,
+      "redshift": 7.75,
+      "dark_matter_in_group": 12100325065,
+      "gas_in_group": 13093059629,
+      "stars": 179049918,
+      "black_holes": 74348,
+      "fof_groups": 217777212,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 121,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_121",
+      "age": 0.693,
+      "lookback": 0.0,
+      "redshift": 7.65,
+      "dark_matter_in_group": 12713096825,
+      "gas_in_group": 13778886850,
+      "stars": 198066591,
+      "black_holes": 86222,
+      "fof_groups": 225176452,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 129,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_129",
+      "age": 0.699,
+      "lookback": 0.0,
+      "redshift": 7.6,
+      "dark_matter_in_group": 13034110710,
+      "gas_in_group": 14133180900,
+      "stars": 209514027,
+      "black_holes": 90092,
+      "fof_groups": 228896428,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 136,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_136",
+      "age": 0.706,
+      "lookback": 0.0,
+      "redshift": 7.54,
+      "dark_matter_in_group": 13425233502,
+      "gas_in_group": 14561549923,
+      "stars": 226050366,
+      "black_holes": 94093,
+      "fof_groups": 233275449,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 141,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_141",
+      "age": 0.711,
+      "lookback": 0.0,
+      "redshift": 7.5,
+      "dark_matter_in_group": 13686341305,
+      "gas_in_group": 14847257781,
+      "stars": 237122477,
+      "black_holes": 99522,
+      "fof_groups": 236115752,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 171,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_171",
+      "age": 0.737,
+      "lookback": 0.0,
+      "redshift": 7.3,
+      "dark_matter_in_group": 14989436353,
+      "gas_in_group": 16275128611,
+      "stars": 293255170,
+      "black_holes": 122900,
+      "fof_groups": 249249560,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 184,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_184",
+      "age": 0.75,
+      "lookback": 0.0,
+      "redshift": 7.2,
+      "dark_matter_in_group": 15651770091,
+      "gas_in_group": 17007438689,
+      "stars": 336267798,
+      "black_holes": 134964,
+      "fof_groups": 255434058,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 197,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_197",
+      "age": 0.764,
+      "lookback": 0.0,
+      "redshift": 7.1,
+      "dark_matter_in_group": 16343783423,
+      "gas_in_group": 17769535308,
+      "stars": 384707647,
+      "black_holes": 152601,
+      "fof_groups": 261596356,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 208,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_208",
+      "age": 0.779,
+      "lookback": 0.0,
+      "redshift": 7.0,
+      "dark_matter_in_group": 17053398961,
+      "gas_in_group": 18557039544,
+      "stars": 434708365,
+      "black_holes": 173993,
+      "fof_groups": 267649410,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 216,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_216",
+      "age": 0.787,
+      "lookback": 0.0,
+      "redshift": 6.94,
+      "dark_matter_in_group": 17487672215,
+      "gas_in_group": 19045547973,
+      "stars": 466793072,
+      "black_holes": 185003,
+      "fof_groups": 271256543,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 222,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_222",
+      "age": 0.793,
+      "lookback": 0.0,
+      "redshift": 6.9,
+      "dark_matter_in_group": 17786046519,
+      "gas_in_group": 19381645459,
+      "stars": 488277684,
+      "black_holes": 190381,
+      "fof_groups": 273696821,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 230,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_230",
+      "age": 0.801,
+      "lookback": 0.0,
+      "redshift": 6.85,
+      "dark_matter_in_group": 18166830885,
+      "gas_in_group": 19811689591,
+      "stars": 513766366,
+      "black_holes": 199527,
+      "fof_groups": 276771522,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 237,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_237",
+      "age": 0.809,
+      "lookback": 0.0,
+      "redshift": 6.8,
+      "dark_matter_in_group": 18553361195,
+      "gas_in_group": 20251415347,
+      "stars": 537333146,
+      "black_holes": 205228,
+      "fof_groups": 279858719,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 244,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_244",
+      "age": 0.816,
+      "lookback": 0.0,
+      "redshift": 6.75,
+      "dark_matter_in_group": 18949544012,
+      "gas_in_group": 20702705412,
+      "stars": 560638945,
+      "black_holes": 219666,
+      "fof_groups": 282939566,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 251,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_251",
+      "age": 0.824,
+      "lookback": 0.0,
+      "redshift": 6.7,
+      "dark_matter_in_group": 19358022252,
+      "gas_in_group": 21165203462,
+      "stars": 587619843,
+      "black_holes": 235967,
+      "fof_groups": 286036300,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 258,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_258",
+      "age": 0.832,
+      "lookback": 0.0,
+      "redshift": 6.65,
+      "dark_matter_in_group": 19781392819,
+      "gas_in_group": 21637585745,
+      "stars": 607224277,
+      "black_holes": 246756,
+      "fof_groups": 289106271,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 265,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_265",
+      "age": 0.841,
+      "lookback": 0.0,
+      "redshift": 6.6,
+      "dark_matter_in_group": 20208297783,
+      "gas_in_group": 22110539582,
+      "stars": 637096423,
+      "black_holes": 260819,
+      "fof_groups": 292040891,
+      "folder_size": 0.0
+    }
+  },
+  {
+    "model": "bluetides.snapshot",
+    "pk": 271,
+    "fields": {
+      "simulation": 1,
+      "name": "snapshot_271",
+      "age": 0.847,
+      "lookback": 0.0,
+      "redshift": 6.56,
+      "dark_matter_in_group": 20556534261,
+      "gas_in_group": 22490179360,
+      "stars": 670401945,
+      "black_holes": 260639,
+      "fof_groups": 294288056,
+      "folder_size": 0.0
+    }
+  }
+]

@@ -1,0 +1,3890 @@
+[
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 585,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 777306715.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 586,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 5249378731.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 587,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1066045.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 588,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2352907426.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 589,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2337879087.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 590,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 227178368.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 591,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 183685548.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 592,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 4764374028.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 593,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2197717482.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 594,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 158412521.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 595,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 243305532.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 596,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1044461.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 597,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 290936372.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 598,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 999535128.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 599,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1827310.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 600,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2836547423.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 601,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 220909761.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 602,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 3017791105.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 603,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 3035357007.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 604,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 6768940900.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 605,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 995524973.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 606,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 346106833.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 607,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 375335867.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 608,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1392978318.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 609,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 222968025.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 610,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6145956969.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 611,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1783612.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 612,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 320223725.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 613,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 975019.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 614,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1011892512.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 615,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2223359566.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 616,
+    "fields": {
+      "name": "MeanGasMetallicity",
+      "folder_size": 249758273.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 617,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 228900342.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 618,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 214106518.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 619,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 276711190.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 620,
+    "fields": {
+      "name": "InternalEnergy",
+      "folder_size": 663691363.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 621,
+    "fields": {
+      "name": "MeanStarMetallicity",
+      "folder_size": 59226158.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 622,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 149275720.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 623,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 4531369142.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 624,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 961561.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 625,
+    "fields": {
+      "name": "MeanStarFormationTime",
+      "folder_size": 41260274.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 626,
+    "fields": {
+      "name": "MeanStarFormingGasMetallicity",
+      "folder_size": 172016837.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 627,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 171661663.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 628,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 362892874.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 629,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 1026402221.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 630,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 227584244.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 631,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 233258050.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 632,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2926915345.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 633,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 3114115903.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 634,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 3131816102.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 635,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6341196924.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 636,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 6983701779.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 637,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 387237607.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 638,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 335167080.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 639,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1889176.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 640,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1934983.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 641,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1439408831.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 642,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 196780263.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 643,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 303332729.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 644,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1519362.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 645,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 916505228.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 646,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 200035029.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 647,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 5646531303.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 648,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1485870.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 649,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 6219806511.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 650,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 281715267.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 651,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2788736162.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 652,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2771656235.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 653,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2605533371.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 654,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 344895133.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 655,
+    "fields": {
+      "name": "MeanStarFormingGasMetallicity",
+      "folder_size": 38452.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 656,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1382315.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 657,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1407.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 658,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 261910.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 659,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 193641.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 660,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6672844.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 661,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 270917.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 662,
+    "fields": {
+      "name": "MeanStarFormationTime",
+      "folder_size": 12241.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 663,
+    "fields": {
+      "name": "MeanStarMetallicity",
+      "folder_size": 20521.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 664,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 39151.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 665,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1427.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 666,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 3267334.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 667,
+    "fields": {
+      "name": "MeanGasMetallicity",
+      "folder_size": 523951.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 668,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 40389.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 669,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 406156.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 670,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 338504686.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 671,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6064067665.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 672,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 313419103.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 673,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2994918446.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 674,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 982559759.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 675,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 6678878527.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 676,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1372422799.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 677,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2798663675.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 678,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2977384081.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 679,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 218330570.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 680,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1776767.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 681,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 217586571.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 682,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 370346621.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 683,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1730594.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 684,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1906413.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 685,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 3097211431.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 686,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 6906617456.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 687,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6271134816.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 688,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1853768.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 689,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 382966111.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 690,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2894479235.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 691,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 222990871.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 692,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 1015331946.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 693,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 229711406.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 694,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 3079583218.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 695,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1423313010.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 696,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 330053360.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 697,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 357089179.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 698,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 15321116.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 699,
+    "fields": {
+      "name": "MeanStarMetallicity",
+      "folder_size": 3642371.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 700,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 275567012.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 701,
+    "fields": {
+      "name": "MeanGasMetallicity",
+      "folder_size": 34506785.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 702,
+    "fields": {
+      "name": "MeanStarFormationTime",
+      "folder_size": 2172343.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 703,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 28306315.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 704,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 96852.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 705,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 119818163.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 706,
+    "fields": {
+      "name": "InternalEnergy",
+      "folder_size": 85547210.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 707,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 22621327.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 708,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 34216450.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 709,
+    "fields": {
+      "name": "MeanStarFormingGasMetallicity",
+      "folder_size": 27746713.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 710,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 96892.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 711,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 559850909.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 712,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 21879337.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 713,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 28307421.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 714,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 152162688.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 715,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1013052.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 716,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 233417731.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 717,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2124877332.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 718,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2260474398.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 719,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2275060192.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 720,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 5075654419.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 721,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 4606693772.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 722,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 281314988.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 723,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 965380850.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 724,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 993254.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 725,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 174222036.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 726,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 752409768.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 727,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 218197541.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 728,
+    "fields": {
+      "name": "InternalEnergy",
+      "folder_size": 41160143.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 729,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 13890370.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 730,
+    "fields": {
+      "name": "MeanStarMetallicity",
+      "folder_size": 1413488.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 731,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 10651182.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 732,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 270598311.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 733,
+    "fields": {
+      "name": "MeanStarFormingGasMetallicity",
+      "folder_size": 13751031.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 734,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 7265938.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 735,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 46972.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 736,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 57458229.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 737,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 46942.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 738,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 16541269.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 739,
+    "fields": {
+      "name": "MeanGasMetallicity",
+      "folder_size": 17419747.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 740,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 133305734.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 741,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 10335963.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 742,
+    "fields": {
+      "name": "MeanStarFormationTime",
+      "folder_size": 828306.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 743,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 4557529.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 744,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 7375373.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 745,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 3226309.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 746,
+    "fields": {
+      "name": "MeanStarFormationTime",
+      "folder_size": 315867.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 747,
+    "fields": {
+      "name": "MeanGasMetallicity",
+      "folder_size": 8058180.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 748,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 59449678.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 749,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 6801347.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 750,
+    "fields": {
+      "name": "MeanStarMetallicity",
+      "folder_size": 552539.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 751,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 25472886.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 752,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 21037.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 753,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 21010.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 754,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 720716.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 755,
+    "fields": {
+      "name": "MeanStarFormingGasMetallicity",
+      "folder_size": 6689697.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 756,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 120645672.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 757,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 4690217.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 758,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 3275725619.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 759,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 2132335.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 760,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 250577243.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 761,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 407195300.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 762,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 360169650.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 763,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 232090607.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 764,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 1078406596.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 765,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 3293612618.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 766,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 391190940.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 767,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 7343148408.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 768,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 2186153.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 769,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6668860951.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 770,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1515686387.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 771,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 3078592495.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 772,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 165105738.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 773,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1132449.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 774,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 803864428.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 775,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2275507363.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 776,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 4932744253.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 777,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1104001.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 778,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 5434792819.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 779,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 186103263.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 780,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 301210023.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 781,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2436064919.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 782,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2420600638.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 783,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 236848758.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 784,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 253910869.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 785,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1036252161.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 786,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 79152284.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 787,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 9851928.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 788,
+    "fields": {
+      "name": "MeanStarMetallicity",
+      "folder_size": 17396012.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 789,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 82892182.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 790,
+    "fields": {
+      "name": "MeanStarFormingGasMetallicity",
+      "folder_size": 83239474.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 791,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 927849558.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 792,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 411594707.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 793,
+    "fields": {
+      "name": "MeanGasMetallicity",
+      "folder_size": 111351084.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 794,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 115427626.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 795,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 55242241.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 796,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 1889319292.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 797,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 337734.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 798,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 84618511.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 799,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 337010.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 800,
+    "fields": {
+      "name": "InternalEnergy",
+      "folder_size": 325580.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 801,
+    "fields": {
+      "name": "MeanStarFormationTime",
+      "folder_size": 11197713.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 802,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2959278372.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 803,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1947734.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 804,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 236944475.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 805,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6411140839.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 806,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 368929523.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 807,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 1037468474.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 808,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 391495460.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 809,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 2000417.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 810,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1455926273.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 811,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 229401214.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 812,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 3148617687.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 813,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 7060577821.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 814,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 340490429.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 815,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 3166354323.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 816,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 135503802.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 817,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 571331.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 818,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 1504335117.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 819,
+    "fields": {
+      "name": "MeanGasMetallicity",
+      "folder_size": 181008163.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 820,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 94432839.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 821,
+    "fields": {
+      "name": "MeanStarFormingGasMetallicity",
+      "folder_size": 128963274.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 822,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 675909667.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 823,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 187257372.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 824,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 126341559.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 825,
+    "fields": {
+      "name": "InternalEnergy",
+      "folder_size": 455280424.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 826,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 143140273.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 827,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 574375.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 828,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 3065733924.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 829,
+    "fields": {
+      "name": "MeanStarMetallicity",
+      "folder_size": 34304409.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 830,
+    "fields": {
+      "name": "MeanStarFormationTime",
+      "folder_size": 23790023.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 831,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 515102.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 832,
+    "fields": {
+      "name": "MeanStarFormationTime",
+      "folder_size": 34140.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 833,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 711295.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 834,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 3909044.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 835,
+    "fields": {
+      "name": "MeanGasMetallicity",
+      "folder_size": 1383207.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 836,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 9219915.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 837,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 3575.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 838,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 18766098.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 839,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 113777.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 840,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 1144767.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 841,
+    "fields": {
+      "name": "MeanStarMetallicity",
+      "folder_size": 56807.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 842,
+    "fields": {
+      "name": "MeanStarFormingGasMetallicity",
+      "folder_size": 108609.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 843,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 111614.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 844,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 3482.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 845,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 732327.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 846,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 3268394896.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 847,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6617797785.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 848,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 7287275884.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 849,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 1070260078.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 850,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 386414060.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 851,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 2174005.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 852,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 2114158.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 853,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 404084820.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 854,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 355906636.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 855,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 247680230.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 856,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 3250498217.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 857,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 235314151.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 858,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1503557602.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 859,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 3054941559.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 860,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2544459638.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 861,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 175221141.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 862,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 251423173.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 863,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1196409.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 864,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 843537955.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 865,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2391978164.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 866,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1090874751.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 867,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 269918037.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 868,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2560553847.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 869,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 5712223594.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 870,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1220735.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 871,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 190673286.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 872,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 316588985.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 873,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 5184799864.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 874,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 3062720016.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 875,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 220875340.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 876,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 6829880336.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 877,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1406552650.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 878,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 378716031.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 879,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 3045121612.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 880,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 324675647.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 881,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 225987290.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 882,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 1004281098.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 883,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6201336724.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 884,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2862195946.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 885,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1812268.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 886,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 351061968.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 887,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1863317.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 888,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 171692954.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 889,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 830252457.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 890,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1162188.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 891,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 193902169.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 892,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2353007824.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 893,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 5100462887.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 894,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2502996850.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 895,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 264317185.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 896,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1203094.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 897,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 246287231.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 898,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 5619466661.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 899,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2518900605.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 900,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1072171684.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 901,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 311444112.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 902,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 350756831.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 903,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 2113832.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 904,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 244096460.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 905,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1488063065.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 906,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 234847642.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 907,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6551152236.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 908,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 380556648.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 909,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 3217622465.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 910,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 400025030.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 911,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 7214237725.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 912,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 3235476449.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 913,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 1059669229.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 914,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 3024090864.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 915,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 2058250.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 916,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 1929823.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 917,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 1339542.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 918,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 3045157.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 919,
+    "fields": {
+      "name": "MeanStarFormationTime",
+      "folder_size": 110969.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 920,
+    "fields": {
+      "name": "MeanStarMetallicity",
+      "folder_size": 196608.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 921,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 49840566.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 922,
+    "fields": {
+      "name": "MeanStarFormingGasMetallicity",
+      "folder_size": 2985084.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 923,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 8949.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 924,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 8838.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 925,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 3047066.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 926,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 10461054.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 927,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 24539365.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 928,
+    "fields": {
+      "name": "MeanGasMetallicity",
+      "folder_size": 3488675.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 929,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 1876964.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 930,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 313563.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 931,
+    "fields": {
+      "name": "InternalEnergy",
+      "folder_size": 185339.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 932,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 188186.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 933,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 1074874480.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 934,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 43166098.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 935,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 65683211.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 936,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 30167436.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 937,
+    "fields": {
+      "name": "MeanStarFormingGasMetallicity",
+      "folder_size": 50771692.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 938,
+    "fields": {
+      "name": "MeanStarFormationTime",
+      "folder_size": 5033630.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 939,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 231789237.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 940,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 5999810.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 941,
+    "fields": {
+      "name": "MeanStarMetallicity",
+      "folder_size": 8097957.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 942,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 528458521.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 943,
+    "fields": {
+      "name": "MeanGasMetallicity",
+      "folder_size": 64578130.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 944,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 51938377.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 945,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 187997.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 946,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 44865384.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 947,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 5284079821.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 948,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 322645665.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 949,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2609585420.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 950,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 5821382948.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 951,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 276692096.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 952,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2437859558.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 953,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1253357.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 954,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 257596368.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 955,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 179464675.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 956,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1229685.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 957,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1112902024.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 958,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2593225849.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 959,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 859180120.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 960,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 192508730.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 961,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 869333589.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 962,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 182229780.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 963,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1127131089.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 964,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 5348485901.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 965,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 281087181.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 966,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 261610290.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 967,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 326573764.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 968,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2641394961.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 969,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1284885.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 970,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1259479.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 971,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 192281007.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 972,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 5892182770.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 973,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2624906786.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 974,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2467624718.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 975,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1677022.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 976,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2735115096.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 977,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2909664495.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 978,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 210987719.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 979,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 210282601.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 980,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1637944.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 981,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1338603173.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 982,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2927070006.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 983,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 5926712178.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 984,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 302550139.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 985,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 6527811437.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 986,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 361972731.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 987,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 326441242.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 988,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 960836024.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 989,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 345700489.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 990,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 233378829.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 991,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 374862632.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 992,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 6481446689.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 993,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1472181336.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 994,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2991829807.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 995,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 395781897.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 996,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 2043926.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 997,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1995024.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 998,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 7137788864.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 999,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 3201082072.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1000,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 3183300827.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1001,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 1048606394.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1002,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 240591821.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1003,
+    "fields": {
+      "name": "FirstPos",
+      "folder_size": 2670434508.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1004,
+    "fields": {
+      "name": "MassCenterVelocity",
+      "folder_size": 2840749243.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1005,
+    "fields": {
+      "name": "BlackholeMass",
+      "folder_size": 1554514.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1006,
+    "fields": {
+      "name": "Mass",
+      "folder_size": 203581699.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1007,
+    "fields": {
+      "name": "GroupID",
+      "folder_size": 353451618.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1008,
+    "fields": {
+      "name": "Jmom",
+      "folder_size": 2858021959.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1009,
+    "fields": {
+      "name": "MinID",
+      "folder_size": 938681761.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1010,
+    "fields": {
+      "name": "LengthByType",
+      "folder_size": 291676359.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1011,
+    "fields": {
+      "name": "Imom",
+      "folder_size": 6374092091.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1012,
+    "fields": {
+      "name": "MassByType",
+      "folder_size": 314365398.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1013,
+    "fields": {
+      "name": "StarFormationRate",
+      "folder_size": 207489424.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1014,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "folder_size": 1591217.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1015,
+    "fields": {
+      "name": "OffsetByType",
+      "folder_size": 1304051978.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.fofgroups",
+    "pk": 1016,
+    "fields": {
+      "name": "MassCenterPosition",
+      "folder_size": 5786861602.0,
+      "snapshot": 184
+    }
+  }
+]

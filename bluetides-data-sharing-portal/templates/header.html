@@ -1,0 +1,116 @@
+{% load util_filters %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{% block title %}Cosmo Webpage{% endblock title %}</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function (){
+                $('#modal').on('show.bs.modal', function (event) {
+                    let modal = $(this);
+                    let file_requested = event.relatedTarget.dataset.file_requested;
+                    $.ajax({
+                        url: "/download_modal/" + file_requested,
+                        context: document.body
+                    }).done(function(response) {
+                        modal.html(response);
+                    });
+                });
+            })
+        </script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <title>BlueTides Portal</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <span class="navbar-brand">
+                    BlueTides
+                </span>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ BASE_COSMO }}">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ BASE_COSMO }}/people">People<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ BASE_COSMO }}/gallery">Gallery<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ BASE_COSMO }}/results">Results<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item dropdown" style="padding-top:8px;">
+                            <a style="display: inline;" class="nav-link" href="{{ BASE_COSMO }}/data-access">
+                               Data Access
+                            </a>
+                            <a style="display: inline;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown"  style="background-color: #212121">
+                                <a class="nav-link" href="{{ BASE_COSMO }}/data-structure">Data Structure<span class="sr-only"></span></a>
+
+                                <a class="nav-link" href="{% url "home" %}">Data-Sharing Portal<span class="sr-only"></span></a>
+
+                                <a class="nav-link" href="{{ BASE_COSMO }}/api-reference">API Reference<span class="sr-only"></span></a>
+
+                                <a class="nav-link" href="{{ BASE_COSMO }}/tutorial">API Tutorial<span class="sr-only"></span></a>
+
+                                <a class="nav-link" href="{{ BASE_API }}/docs" target="_blank">API Access<span
+                                        class="sr-only"></span></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container-fluid">
+            {% block content %}
+            {% endblock %}
+        </div>
+        <footer class="page-footer font-small special-color-dark">
+            <div class="container">
+                <div class="col-md-12 pt-4 pb-3">
+                    <div class="text-center">
+                        <p>Phone: 412-268-4960 | Fax: 412-268-5832</p>
+                    </div>
+                    <div class="text-center">
+                        <p>Email: <a class="footer-email" href = "mailto:remarks@psc.edu">remarks@psc.edu</a></p>
+                    </div>
+                    <div class="text-center">
+                        <p>Location: 300 S. Craig Street, Pittsburgh, PA 15213</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 pb-4">
+                    <div class="flex-center">
+                        <a class="li-ic" href="https://www.linkedin.com/company/pittsburgh-supercomputing-center/" target = "_blank">
+                            <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x" name="logo-linkedin"> </i>
+                        </a>
+                        <a class="tw-ic" href="https://twitter.com/psc_live?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target = "_blank">
+                            <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x" name="logo-twitter"> </i>
+                        </a>
+                        <a class="fb-ic" href="https://www.facebook.com/PittsburghSupercomputingCenter/" target = "_blank">
+                            <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x" name="logo-facebook"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-center py-3">
+                &copy; 2020 Pittsburgh Supercomputing Center
+            </div>
+        </footer>
+    <div class="modal" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+    </div>
+    </body>
+</html>

@@ -1,0 +1,6982 @@
+[
+  {
+    "model": "bluetides.species",
+    "pk": 1111,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 90571.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1112,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 1498706.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1113,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 241772.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1114,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 642548.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1115,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 3063146581.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1116,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 3174582.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1117,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 585332813.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1118,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 2305.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1119,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 1496.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1120,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 241723.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1121,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 220470.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1122,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 274776128.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1123,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 15698.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1124,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 554148267.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1125,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 22766.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1126,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 1780528362.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1127,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 589385420.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1128,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 391995.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1129,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 26523196.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1130,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 727761.0,
+      "snapshot": 95
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1131,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 160316.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1132,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 4279252.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1133,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 4278975.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1134,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 16047.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1135,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 2088109.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1136,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 44349.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1137,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 2093585.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1138,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 8675968838.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1139,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 16961.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1140,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 195951.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1141,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 56559116.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1142,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 870097466.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1143,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 289424.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1144,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1617056923.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1145,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 1153882.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1146,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 41561070.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1147,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 1700494786.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1148,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 5173975623.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1149,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 700776.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1150,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 692968.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1151,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 7914120.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1152,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 1560648473.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1153,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 18172.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1154,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 695616.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1155,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 2093442.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1156,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 713091.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1157,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 709991.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1158,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 671398.0,
+      "snapshot": 216
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1159,
+    "fields": {
+      "name": "SmoothingLength",
+      "species_type": 4,
+      "folder_size": 507181101.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1160,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 13564.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1161,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 641.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1162,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 1191804.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1163,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 25047761.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1164,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 241199548.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1165,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 2695599501.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1166,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 312634.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1167,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 1569873419.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1168,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 72831.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1169,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 514365009.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1170,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 376111.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1171,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 176314.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1172,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 489037480.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1173,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 579023.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1174,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 192433.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1175,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 189481.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1176,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 516120653.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1177,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 551386.0,
+      "snapshot": 86
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1178,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 776305.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1179,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 16262.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1180,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 11578409.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1181,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 2318322.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1182,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1842990972.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1183,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 1283297.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1184,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 315399.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1185,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 4743623.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1186,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 783161.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1187,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 1956923726.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1188,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 9957748056.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1189,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 20490.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1190,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 743246.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1191,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 4742891.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1192,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 5955348737.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1193,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 43415649.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1194,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 73821349.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1195,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 1735417303.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1196,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 15804.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1197,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 2316641.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1198,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 2317026.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1199,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 787788.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1200,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 217027.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1201,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 1016640316.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1202,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 771741.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1203,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 48100.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1204,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 756776.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1205,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 171017.0,
+      "snapshot": 237
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1206,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 481758.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1207,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 462011.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1208,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 986656912.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1209,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 200846.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1210,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 18628.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1211,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 100427.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1212,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 30414851.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1213,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 778395.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1214,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 471037.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1215,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1038519180.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1216,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 15097.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1217,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 478282.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1218,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 1398062.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1219,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 3252268778.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1220,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 34572.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1221,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 1398133.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1222,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 14733.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1223,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 5496324611.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1224,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 2843682.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1225,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 472165.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1226,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 2849713.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1227,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 1068892422.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1228,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 450058.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1229,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 1395010.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1230,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 118655.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1231,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 529755556.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1232,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 4036998.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1233,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 33941779.0,
+      "snapshot": 171
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1234,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 6312.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1235,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 19371.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1236,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 19230.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1237,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 111577.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1238,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 297.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1239,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 27418.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1240,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 5932.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1241,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 57794.0,
+      "snapshot": 27
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1242,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 1455494150.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1243,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 0,
+      "folder_size": 188858216905.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1244,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 672386.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1245,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 1,
+      "folder_size": 205716603046.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1246,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 17813.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1247,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 16014.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1248,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 0,
+      "folder_size": 20993325809.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1249,
+    "fields": {
+      "name": "Pressure",
+      "species_type": 0,
+      "folder_size": 62658976065.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1250,
+    "fields": {
+      "name": "Entropy",
+      "species_type": 0,
+      "folder_size": 61348440790.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1251,
+    "fields": {
+      "name": "Potential",
+      "species_type": 1,
+      "folder_size": 60537831608.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1252,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 653164.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1253,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 8085345440.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1254,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 40008358.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1255,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 17433.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1256,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 1964042.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1257,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 153220.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1258,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 656049.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1259,
+    "fields": {
+      "name": "Density",
+      "species_type": 0,
+      "folder_size": 62316288081.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1260,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 666652.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1261,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 4021781.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1262,
+    "fields": {
+      "name": "ElectronAbundance",
+      "species_type": 0,
+      "folder_size": 52018795202.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1263,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 51871374.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1264,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 1967740.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1265,
+    "fields": {
+      "name": "H2Fraction",
+      "species_type": 0,
+      "folder_size": 8296232892.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1266,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 4015805.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1267,
+    "fields": {
+      "name": "StarFormationRate",
+      "species_type": 0,
+      "folder_size": 8283238152.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1268,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 1966147.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1269,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 4818917628.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1270,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 275076.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1271,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 663435.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1272,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 7178653.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1273,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 1583705422.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1274,
+    "fields": {
+      "name": "ID",
+      "species_type": 1,
+      "folder_size": 52138719973.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1275,
+    "fields": {
+      "name": "Position",
+      "species_type": 1,
+      "folder_size": 354418254898.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1276,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 42569.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1277,
+    "fields": {
+      "name": "ID",
+      "species_type": 0,
+      "folder_size": 49612745834.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1278,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 632968.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1279,
+    "fields": {
+      "name": "InternalEnergy",
+      "species_type": 0,
+      "folder_size": 59098175755.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1280,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 1088515.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1281,
+    "fields": {
+      "name": "Mass",
+      "species_type": 0,
+      "folder_size": 470378933.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1282,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 182498.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1283,
+    "fields": {
+      "name": "Position",
+      "species_type": 0,
+      "folder_size": 327046019564.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1284,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 806180345.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1285,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1509696925.0,
+      "snapshot": 208
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1286,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 4613064.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1287,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 724385.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1288,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 9529070401.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1289,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 65846587.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1290,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 2254137.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1291,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 9904579.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1292,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 47209.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1293,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 43113945.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1294,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 4612320.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1295,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 759974.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1296,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 762262.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1297,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 166222.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1298,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 306783.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1299,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 15879.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1300,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 748463.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1301,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 750039.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1302,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 1871232890.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1303,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 1709703471.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1304,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 768341.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1305,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 5694674113.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1306,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 210829.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1307,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 966882746.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1308,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 15590.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1309,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 18799.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1310,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 2254839.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1311,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 2253754.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1312,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1770831227.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1313,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 1249232.0,
+      "snapshot": 230
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1314,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 8649775.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1315,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 505.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1316,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 3014093.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1317,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 530.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1318,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 276.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1319,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 909.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1320,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 26412415.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1321,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 8658009.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1322,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 361.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1323,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 501.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1324,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 48169513.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1325,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 1328807.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1326,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 9574.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1327,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 1502.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1328,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 699.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1329,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 608.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1330,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 275.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1331,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 10285155.0,
+      "snapshot": 44
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1332,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 25369467.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1333,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 1328240.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1334,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 8399.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1335,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 2762804877.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1336,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 214135.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1337,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 195743.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1338,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 17765.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1339,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 501678569.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1340,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 6932.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1341,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 539247184.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1342,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 564979.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1343,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 352331.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1344,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 1609584054.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1345,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 80710.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1346,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 215176.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1347,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 644683.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1348,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 593.0,
+      "snapshot": 92
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1349,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 8495341.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1350,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 500036.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1351,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 411.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1352,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 3286.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1353,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 915076.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1354,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 375.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1355,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 256.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1356,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 337.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1357,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 3440951.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1358,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 330.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1359,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 2782241.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1360,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 317.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1361,
+    "fields": {
+      "name": "SmoothingLength",
+      "species_type": 4,
+      "folder_size": 2726985.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1362,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 2792537.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1363,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 269.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1364,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 538.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1365,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 318.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1366,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 277.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1367,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 15685207.0,
+      "snapshot": 40
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1368,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 913834.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1369,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 276939.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1370,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1169562.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1371,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 1244.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1372,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 2771207.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1373,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 190865.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1374,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 5185015.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1375,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 907136.0,
+      "snapshot": 37
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1376,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 1608064.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1377,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 2255114766.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1378,
+    "fields": {
+      "name": "StarFormationRate",
+      "species_type": 0,
+      "folder_size": 11598664671.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1379,
+    "fields": {
+      "name": "Position",
+      "species_type": 1,
+      "folder_size": 429384513276.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1380,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 974474.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1381,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 2937197.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1382,
+    "fields": {
+      "name": "ID",
+      "species_type": 1,
+      "folder_size": 63346106538.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1383,
+    "fields": {
+      "name": "ID",
+      "species_type": 0,
+      "folder_size": 59920232691.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1384,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 955837.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1385,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 112210015.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1386,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 26583685.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1387,
+    "fields": {
+      "name": "H2Fraction",
+      "species_type": 0,
+      "folder_size": 11732735624.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1388,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 0,
+      "folder_size": 27787562012.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1389,
+    "fields": {
+      "name": "Position",
+      "species_type": 0,
+      "folder_size": 393732681634.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1390,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 6013396.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1391,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 944022.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1392,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 391339.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1393,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 1311355742.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1394,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 2936560.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1395,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 278190.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1396,
+    "fields": {
+      "name": "Mass",
+      "species_type": 0,
+      "folder_size": 626321269.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1397,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 2938151.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1398,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 7430753322.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1399,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 55903.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1400,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 23200.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1401,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 12340559202.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1402,
+    "fields": {
+      "name": "InternalEnergy",
+      "species_type": 0,
+      "folder_size": 71433482556.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1403,
+    "fields": {
+      "name": "Density",
+      "species_type": 0,
+      "folder_size": 75302516033.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1404,
+    "fields": {
+      "name": "Pressure",
+      "species_type": 0,
+      "folder_size": 75732317952.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1405,
+    "fields": {
+      "name": "Potential",
+      "species_type": 1,
+      "folder_size": 73422333534.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1406,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 6013411.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1407,
+    "fields": {
+      "name": "Entropy",
+      "species_type": 0,
+      "folder_size": 73997461587.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1408,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 17163.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1409,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 2441390654.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1410,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 45038933.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1411,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 0,
+      "folder_size": 227590358304.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1412,
+    "fields": {
+      "name": "ElectronAbundance",
+      "species_type": 0,
+      "folder_size": 61365203171.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1413,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 991546.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1414,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 982998.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1415,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 990992.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1416,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 2229171842.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1417,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 16778.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1418,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 202960.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1419,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 1,
+      "folder_size": 249514614713.0,
+      "snapshot": 271
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1420,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 652883051.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1421,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 3394648251.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1422,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 27894.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1423,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 446326.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1424,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 653108879.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1425,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 1703915.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1426,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 278230.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1427,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 615940636.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1428,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 274913.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1429,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 102867.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1430,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 4189.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1431,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 27910511.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1432,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 250745.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1433,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 667.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1434,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 7297231.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1435,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 827580.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1436,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 1985998113.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1437,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 309854766.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1438,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 973636.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1439,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 28132.0,
+      "snapshot": 105
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1440,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 18712.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1441,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 1354.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1442,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 4342.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1443,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 483.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1444,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 58050.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1445,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 9773.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1446,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 376800104.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1447,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 8964.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1448,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 69871186.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1449,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 212744094.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1450,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 15937.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1451,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 28476.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1452,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 75889926.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1453,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 6793069.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1454,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 76174.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1455,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 68526969.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1456,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 28257311.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1457,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 9889.0,
+      "snapshot": 54
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1458,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 232648.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1459,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 1067579604.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1460,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 335299.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1461,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 1368716.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1462,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 80524202.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1463,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1916752441.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1464,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 833313.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1465,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 2483896.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1466,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 50306.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1467,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 6214139974.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1468,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 14358511.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1469,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 2481279.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1470,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 5075222.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1471,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 834184.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1472,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 10376127206.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1473,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 19409.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1474,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 178221.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1475,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 812764.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1476,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 2482889.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1477,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 1818394598.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1478,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 15904.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1479,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 2041687450.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1480,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 16223.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1481,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 843199.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1482,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 43969957.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1483,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 5075389.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1484,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 793791.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1485,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 821703.0,
+      "snapshot": 244
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1486,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 1021362194.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1487,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 206046.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1488,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 261183.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1489,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 42051.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1490,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 470.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1491,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 82534.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1492,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 13904563.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1493,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 200570309.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1494,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 68948.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1495,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 192313180.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1496,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 42381.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1497,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 16743.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1498,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 185914290.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1499,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 3550.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1500,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 83009321.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1501,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 126692.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1502,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 38911.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1503,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 585108401.0,
+      "snapshot": 66
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1504,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 18017.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1505,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 62547.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1506,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 364443.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1507,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 189794.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1508,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 18775.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1509,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 86952.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1510,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 386.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1511,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 63092.0,
+      "snapshot": 30
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1512,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 970850.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1513,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 1239187646.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1514,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 2320063528.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1515,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 277142.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1516,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 18684.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1517,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 390830.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1518,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 2932284.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1519,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 961109.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1520,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 15668.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1521,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 7061592010.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1522,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 198301.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1523,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 980706.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1524,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 2151959220.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1525,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 1606162.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1526,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 2936799.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1527,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 6015625.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1528,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 103551739.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1529,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 11746324218.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1530,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 991858.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1531,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 23538862.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1532,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 18508.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1533,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 991305.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1534,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 938383.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1535,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 6015947.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1536,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 44648176.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1537,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 55103.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1538,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 2120994247.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1539,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 2939112.0,
+      "snapshot": 265
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1540,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 717644621.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1541,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 29673659.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1542,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 3960189380.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1543,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 2063136.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1544,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 333047.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1545,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 654.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1546,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 2062982.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1547,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 7417.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1548,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 1002710.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1549,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 39274.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1550,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 763914383.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1551,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 327148.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1552,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 12915945.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1553,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 758186796.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1554,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 541713.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1555,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 47992.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1556,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 366858251.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1557,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 1002689.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1558,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 303467.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1559,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 123067.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1560,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 1533454.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1561,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 734.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1562,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 2323806659.0,
+      "snapshot": 129
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1563,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 8793317.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1564,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 45315.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1565,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 2153826.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1566,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 17894.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1567,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 1185366.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1568,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 202458.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1569,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1688250838.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1570,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 691637.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1571,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 914313402.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1572,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 4398622.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1573,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 42362189.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1574,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 2153373.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1575,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 716667.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1576,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 60341059.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1577,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 1630878442.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1578,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 5412454969.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1579,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 727369.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1580,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 1778562176.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1581,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 15718.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1582,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 15320.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1583,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 712276.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1584,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 732806.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1585,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 9065427779.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1586,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 726741.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1587,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 4398937.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1588,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 296309.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1589,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 2154574.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1590,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 162977.0,
+      "snapshot": 222
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1591,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 28832344.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1592,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 30750.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1593,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 2196994127.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1594,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 722179981.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1595,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 11171056.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1596,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 959781.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1597,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 318796.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1598,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 664849152.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1599,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 6921.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1600,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 322406.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1601,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 718594036.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1602,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 45502.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1603,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 345416529.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1604,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 518312.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1605,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 961.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1606,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 281788.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1607,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 1975630.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1608,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 1357671.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1609,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 119211.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1610,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 3746122215.0,
+      "snapshot": 121
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1611,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 18792.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1612,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 917286.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1613,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 933552.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1614,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 907217.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1615,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 15643.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1616,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 2772290.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1617,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 888646.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1618,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 2779382.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1619,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 17987.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1620,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 372228.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1621,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 6731444150.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1622,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 19941613.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1623,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 2059348727.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1624,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 44365375.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1625,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 1523705.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1626,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 929429.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1627,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 53370.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1628,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 11207366638.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1629,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 191113.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1630,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 1172226724.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1631,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 260708.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1632,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 5694513.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1633,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 2780926.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1634,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 1966941364.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1635,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 943582.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1636,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 95252871.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1637,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 2211270045.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1638,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 5693613.0,
+      "snapshot": 258
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1639,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 1540728.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1640,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 65367.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1641,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 357855.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1642,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 268702.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1643,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 75665.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1644,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 266085.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1645,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 812065.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1646,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 552.0,
+      "snapshot": 35
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1647,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 27592412.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1648,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 3577.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1649,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 2366.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1650,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 365.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1651,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 24109864.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1652,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 2059.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1653,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 6106.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1654,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 26873.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1655,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 74062874.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1656,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 4114.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1657,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 3050128.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1658,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 133149583.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1659,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 24291923.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1660,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 1296.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1661,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 9204624.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1662,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 11917.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1663,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 589.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1664,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 2356.0,
+      "snapshot": 48
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1665,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 2155184.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1666,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 128630.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1667,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 1733432.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1668,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 4265981104.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1669,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 341719.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1670,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 565895.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1671,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 754.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1672,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 318510.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1673,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 815157138.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1674,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 749.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1675,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 8036.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1676,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 349264.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1677,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 45372.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1678,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 824110602.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1679,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 51878.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1680,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 2155215.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1681,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 2507197895.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1682,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 772142933.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1683,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 398065866.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1684,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 1047402.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1685,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 30699565.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1686,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 15122678.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1687,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 1047224.0,
+      "snapshot": 136
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1688,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 804501308.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1689,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 135990.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1690,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 369431.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1691,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 1857104.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1692,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 598673.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1693,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 699.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1694,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 852763311.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1695,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 4468869691.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1696,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 2280651.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1697,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 696.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1698,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 337425.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1699,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 864401508.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1700,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 1107724.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1701,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 16715585.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1702,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 2630049867.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1703,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 361963.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1704,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 56941.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1705,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 419346897.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1706,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 31260858.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1707,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 1107546.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1708,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 8840.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1709,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 49643.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1710,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 2280501.0,
+      "snapshot": 141
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1711,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 158934.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1712,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 707787254.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1713,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 17835.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1714,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 244790.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1715,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 1401800541.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1716,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 15954.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1717,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 1728887.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1718,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 7172953129.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1719,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 6071687.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1720,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 3529228.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1721,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 583997.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1722,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 1732641.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1723,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 558211.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1724,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 3522352.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1725,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 590070.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1726,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 138308.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1727,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 44862677.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1728,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 1731308.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1729,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 4264750569.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1730,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 571486.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1731,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 39017.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1732,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 37836605.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1733,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 15906.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1734,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1342526241.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1735,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 1289476583.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1736,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 963896.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1737,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 596135.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1738,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 580980.0,
+      "snapshot": 197
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1739,
+    "fields": {
+      "name": "Entropy",
+      "species_type": 0,
+      "folder_size": 69694769038.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1740,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 27086.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1741,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 44277031.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1742,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 2662634.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1743,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 2139848142.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1744,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 6513916943.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1745,
+    "fields": {
+      "name": "Density",
+      "species_type": 0,
+      "folder_size": 70865033742.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1746,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 879081.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1747,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 899022.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1748,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 17185843.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1749,
+    "fields": {
+      "name": "Position",
+      "species_type": 1,
+      "folder_size": 404199196090.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1750,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 883373.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1751,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 1956877380.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1752,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 839500.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1753,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1999908950.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1754,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 1461688.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1755,
+    "fields": {
+      "name": "Position",
+      "species_type": 0,
+      "folder_size": 370960365535.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1756,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 2664636.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1757,
+    "fields": {
+      "name": "StarFormationRate",
+      "species_type": 0,
+      "folder_size": 10635593424.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1758,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 184577.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1759,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 15966.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1760,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 856981.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1761,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 52314.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1762,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 0,
+      "folder_size": 25487722067.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1763,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 870277.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1764,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 5443916.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1765,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 1125988092.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1766,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 247232.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1767,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 10857196282.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1768,
+    "fields": {
+      "name": "H2Fraction",
+      "species_type": 0,
+      "folder_size": 10579551851.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1769,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 89030761.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1770,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 2605378.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1771,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 5444089.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1772,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 17873.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1773,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 356627.0,
+      "snapshot": 251
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1774,
+    "fields": {
+      "name": "Position",
+      "species_type": 1,
+      "folder_size": 324851361665.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1775,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 4,
+      "folder_size": 1225448232.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1776,
+    "fields": {
+      "name": "Generation",
+      "species_type": 5,
+      "folder_size": 35951.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1777,
+    "fields": {
+      "name": "BlackholeMass",
+      "species_type": 5,
+      "folder_size": 496090.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1778,
+    "fields": {
+      "name": "Mass",
+      "species_type": 4,
+      "folder_size": 5008509.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1779,
+    "fields": {
+      "name": "Position",
+      "species_type": 0,
+      "folder_size": 300254118949.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1780,
+    "fields": {
+      "name": "StarFormationRate",
+      "species_type": 0,
+      "folder_size": 7041492606.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1781,
+    "fields": {
+      "name": "Generation",
+      "species_type": 4,
+      "folder_size": 37633952.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1782,
+    "fields": {
+      "name": "H2Fraction",
+      "species_type": 0,
+      "folder_size": 7267661121.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1783,
+    "fields": {
+      "name": "BlackholeMinPotPos",
+      "species_type": 5,
+      "folder_size": 3121732.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1784,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 5,
+      "folder_size": 1535436.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1785,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 5,
+      "folder_size": 220564.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1786,
+    "fields": {
+      "name": "Velocity",
+      "species_type": 4,
+      "folder_size": 3728744689.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1787,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 4,
+      "folder_size": 613875242.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1788,
+    "fields": {
+      "name": "StarFormationTime",
+      "species_type": 5,
+      "folder_size": 139918.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1789,
+    "fields": {
+      "name": "BlackholeMinPotVel",
+      "species_type": 5,
+      "folder_size": 1532685.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1790,
+    "fields": {
+      "name": "Potential",
+      "species_type": 4,
+      "folder_size": 1107201519.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1791,
+    "fields": {
+      "name": "Metallicity",
+      "species_type": 0,
+      "folder_size": 18375797338.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1792,
+    "fields": {
+      "name": "BlackholeAccretionRate",
+      "species_type": 5,
+      "folder_size": 521803.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1793,
+    "fields": {
+      "name": "Density",
+      "species_type": 0,
+      "folder_size": 57154599616.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1794,
+    "fields": {
+      "name": "BlackholeLastMergerID",
+      "species_type": 5,
+      "folder_size": 17847.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1795,
+    "fields": {
+      "name": "Position",
+      "species_type": 4,
+      "folder_size": 6282243095.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1796,
+    "fields": {
+      "name": "Potential",
+      "species_type": 5,
+      "folder_size": 530180.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1797,
+    "fields": {
+      "name": "Entropy",
+      "species_type": 0,
+      "folder_size": 56287185355.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1798,
+    "fields": {
+      "name": "Position",
+      "species_type": 5,
+      "folder_size": 3128727.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1799,
+    "fields": {
+      "name": "GroupID",
+      "species_type": 4,
+      "folder_size": 35546933.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1800,
+    "fields": {
+      "name": "ID",
+      "species_type": 5,
+      "folder_size": 857993.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1801,
+    "fields": {
+      "name": "ID",
+      "species_type": 4,
+      "folder_size": 1181321733.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1802,
+    "fields": {
+      "name": "BlackholeProgenitors",
+      "species_type": 5,
+      "folder_size": 15853.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1803,
+    "fields": {
+      "name": "BlackholeGasVel",
+      "species_type": 5,
+      "folder_size": 1535653.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1804,
+    "fields": {
+      "name": "BlackholeEntropy",
+      "species_type": 5,
+      "folder_size": 508306.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1805,
+    "fields": {
+      "name": "BlackholeDensity",
+      "species_type": 5,
+      "folder_size": 519858.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1806,
+    "fields": {
+      "name": "BlackholePressure",
+      "species_type": 5,
+      "folder_size": 526640.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1807,
+    "fields": {
+      "name": "Mass",
+      "species_type": 5,
+      "folder_size": 121145.0,
+      "snapshot": 184
+    }
+  },
+  {
+    "model": "bluetides.species",
+    "pk": 1808,
+    "fields": {
+      "name": "BlackholeJumpToMinPot",
+      "species_type": 5,
+      "folder_size": 15746.0,
+      "snapshot": 184
+    }
+  }
+]
