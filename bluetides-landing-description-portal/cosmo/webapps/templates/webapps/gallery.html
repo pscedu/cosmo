@@ -1,0 +1,100 @@
+{% extends 'webapps/header.html' %}
+{% load static %}
+{% block content %}
+
+<script>
+
+$(document).ready(function (){
+                $('#imagemodal').on('show.bs.modal', function (event) {
+                    let image = event.relatedTarget.getElementsByTagName('img')[0];
+                    $('#imagepreview').attr('src', image.src);
+                });
+            })
+
+</script>
+
+<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        </div>
+      <div class="modal-body">
+        <img src="" id="imagepreview" style="width: 100%;" >
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <h2 class="mt-3">Gallery</h2>
+
+<!-- THIS IS A TEMPLATE FOR A IMAGE CONTAINER
+<div class="col-4">
+    <h5 class="image-title">IMAGE TITLE</h5>
+    <a href="{% static 'webapps/images/gallery/IMAGENAME.FILEEXT' %}" target="_blank">
+        <img href="{% static 'webapps/images/gallery/IMAGENAME.FILEEXT' %}">
+    </a>
+    <p class="caption mt-2"> This is an example caption that shows what a caption would look like for an image. </p>
+</div>
+-->
+
+    <div class="row my-3">
+        <div class="col-6">
+            <a href="#" data-toggle="modal" data-target="#imagemodal">
+                <img style="max-width:100%" src="{% static 'webapps/images/gallery/ensemble-40Mpc.png' %}">
+            </a>
+            <p class="caption mt-2">
+                A view of some 40 cMpc/h sub-regions centered at some massive halos (upper panels) and massive BHs (lower panels) in BlueTides simulation at z=6.5.
+                The image shows the gas density field color coded by temperature.
+            </p>
+        </div>
+        <div class="col-6">
+            <a href="#" data-toggle="modal" data-target="#imagemodal">
+                <img style="max-width:100%" src="{% static 'webapps/images/gallery/ensemble-4Mpc.png' %}">
+            </a>
+            <p class="caption mt-2"> A series of 4 cMpc/h sub-regions centered at some massive BHs in BlueTides simulation at z=6.5.
+                The image shows the gas density field color coded by temperature.
+                The BH sits at the center of the image (marked by the white cross).
+            </p>
+        </div>
+    </div>
+
+    <div class="row my-3">
+        <div class="col-6">
+            <a href="#" data-toggle="modal" data-target="#imagemodal">
+                <img style="max-width:100%" src="{% static 'webapps/images/gallery/galaxies-20kpc.png' %}">
+            </a>
+            <p class="caption mt-2"> The host galaxies of the 20 most massive BHs of BlueTides simulation at z=6.5.
+                The image show a view of 20 ckpc/h region centered at the supermassive BHs.
+                The left panel shows the galaxies in face-on direction, while the right panel shows the edge-on view of the galaxies.
+            </p>
+        </div>
+        <div class="col-6">
+            <a href="#" data-toggle="modal" data-target="#imagemodal">
+                <img style="max-width:100%" src="{% static 'webapps/images/gallery/hm1-multifield.png' %}">
+            </a>
+            <p class="caption mt-2">  A multi-field view of the largest halo in BlueTides.
+                The left panel shows a 40 cMpc/h sub-region showing in turn the dark matter, gas temperature and the gas metallicity field.
+                The right panel gives a zoom-in view of 4 cMpc/h sub-region to illustrate the detailed structures.
+            </p>
+        </div>
+    </div>
+    <div class="row my-3">
+        <div class="col-6">
+            <a href="#" data-toggle="modal" data-target="#imagemodal">
+                <img style="max-width:100%" src="{% static 'webapps/images/gallery/host4-obsc.png' %}">
+            </a>
+            <p class="caption mt-2"> Illustration of the host environment of the four sample QSOs at z=7.0.
+                The top panels give the gas density field color coded by temperature, in a view of 400 ckpc/h sub-region.
+                Middle panels paint the stellar density field for the host galaxy (in face-on orientation) color coded by the age of stars.
+                The bottom panels give the density field of the cold molecular gas surrounding the BHs, in contrast with the mean surface density of the host gas.
+                The middle and bottom boxes are all shown in 30 ckpc/h per side.
+            </p>
+        </div>
+    </div>
+
+{% endblock %}

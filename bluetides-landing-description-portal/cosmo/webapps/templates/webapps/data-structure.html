@@ -1,0 +1,585 @@
+{% extends 'webapps/header.html' %}
+{% load static %}
+{% block content %}
+    <h2 class="mt-3">BlueTides Data Structure</h2>
+    <p>PIG_{id}: Particle data within each halo(=group=FoFgroup), organized by halos</p>
+    <ul>
+        <li>
+            FoFGroup
+            <ul>
+                <li>Group of particles linked by Friend-of-friend algorithm and contains information of particles within each halo</li>
+                <li>Data can be read by pig.open('FoFGroup/{feature}')[:]</li>
+                <li><p>Detailed data structure:</p>
+                    <table class="table table-striped table-bordered table-condensed" id="snaptable">
+                        <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Size   </th>
+                            <th>Unit   </th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>GroupID</td>
+                                <td>[Nhalo, 6]</td>
+                                <td>None</td>
+                                <td>
+                                    <ul>
+                                        <li>ID of the FoF halo to which this particle belongs.−1 is particle does not belongto a halo. Could be different from snapshot to snapshot.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>LengthByType</td>
+                                <td>[Nhalo, 6]</td>
+                                <td>None</td>
+                                <td>
+                                    <ul>
+                                        <li>The number of particles of each type within halo ‘ID’</li>
+                                        <li>E.g. pig.open('FoFGroup/LengthByType')[:][5][0] is the number of gas(type 0) particles in the 5th halo</li>
+                                        <li>Useful for acquiring particle info within the data</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>OffsetByType</td>
+                                <td>[Nhalo, 6]</td>
+                                <td>None</td>
+                                <td>
+                                    <ul>
+                                        <li>=cumsum(LengthByType,axis=0)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>MassByType</td>
+                                <td>[Nhalo, 6]</td>
+                                <td>1e10Msun/h</td>
+                                <td>
+                                    <ul>
+                                        <li>Total mass of a particular species</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mass</td>
+                                <td>[Nhalo, 6]</td>
+                                <td>1e10Msun/h</td>
+                                <td>
+                                    <ul>
+                                        <li> Total mass of the halo</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Firstpos</td>
+                                <td>[Nhalo, 3]</td>
+                                <td>ckpc/h</td>
+                                <td>
+                                    <ul>
+                                        <li>The position of particle with minID.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>MassCenterPosition</td>
+                                <td>[Nhalo, 3]</td>
+                                <td>ckpc/h</td>
+                                <td>
+                                    <ul>
+                                        <li>(x,y,z) coordinate of the halo center of mass</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>MassCenterVelocity</td>
+                                <td>[Nhalo, 3]</td>
+                                <td>(1/a)km/s</td>
+                                <td>
+                                    <ul>
+                                        <li>(vx,vy,vz) -> the mass-weighted velocity</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Imom</td>
+                                <td>[Nhalo, 3]</td>
+                                <td>unit</td>
+                                <td>
+                                    <ul>
+                                        <li>Moment of inertia (for rotation), relative to the COM</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>StarFormationRate</td>
+                                <td>[Nhalo,1]</td>
+                                <td>(1e10 Msun)/(980 Myr)</td>
+                                <td>
+                                    <ul>
+                                        <li>The rate at which star particles are born</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BlackholeAccretionRate</td>
+                                <td>[Nhalo,1]</td>
+                                <td>(1e10 Msun)/(980 Myr)</td>
+                                <td>
+                                    <ul>
+                                        <li>The rate at which BHs accrete mass</li>
+                                        <li>Accretion (=increase in mass by swallowing gas) rate of all BHs within the halo</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BlackholeMass</td>
+                                <td>[Nhalo,1]</td>
+                                <td>1e10 Msun/h</td>
+                                <td>
+                                    <ul>
+                                        <li>Total mass of all BHs linked to this halo</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>MinID</td>
+                                <td>[Nhalo,1]</td>
+                                <td>None</td>
+                                <td>
+                                    <ul>
+                                        <li>Minimum ID/li>
+                                    </ul>
+                                </td>
+                            </tr>                                                
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Features shared by all particle types
+            <ul>
+                <li>These are the features shared by Gas, DM, Star and BH particles</li>
+                <li>They will be summarized here and not repeated in the particle-specific descriptions.</li>
+                <li><p>Detailed data structure:</p>
+                    <table class="table table-striped table-bordered table-condensed" id="snaptable">
+                        <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Size   </th>
+                            <th>Unit   </th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                             <tr>
+                                <td>ID</td>
+                                <td>[Npart,1]</td>
+                                <td>None</td>
+                                <td>
+                                    <ul>
+                                        <li>64-bit unique IDs of each particle.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>GroupID</td>
+                                <td>[Npart,1]</td>
+                                <td>None</td>
+                                <td>
+                                    <ul>
+                                        <li>The ID of the FoF group the particle belongs to at this snapshot</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mass</td>
+                                <td>[Npart,1]</td>
+                                <td>1e10 Msun/h</td>
+                                <td>
+                                    <ul>
+                                        <li>Mass of each particle</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Position</td>
+                                <td>[Npart,3]</td>
+                                <td>ckpc/h</td>
+                                <td>
+                                    <ul>
+                                        <li>Position of each particle in internal units relative to the lower-left corner of the box.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Velocity</td>
+                                <td>[Npart,3]</td>
+                                <td>(1/a)(km/s)</td>
+                                <td>
+                                    <ul>
+                                        <li>(vx,vy,vz) velocity of each particle.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Density</td>
+                                <td>[Npart,1]</td>
+                                <td>(1e10 Msun/h)/(ckpc/h)<sup>3</sup></td>
+                                <td>
+                                    <ul>
+                                        <li>The density of the particle in internal units.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Potential</td>
+                                <td>[Npart,1]</td>
+                                <td>(km/s)<sup>2</sup>/a</td>
+                                <td>
+                                    <ul>
+                                        <li>Gravitational potential experienced by this particle.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+        </li>
+
+
+        <li>
+            Gas Particle (Type 0) Specific Data
+            <ul>
+                <li>These are the features specific to the gas particles (some also shared by Stars and BHs)</li>
+                <li>Most features are [Ngas,1] or [Ngas,3] arrays, where Ngas=sum(LengthByType[:,0]) is the number of gas particles associated with halos</li>
+                <li><p>Detailed data structure:</p>
+                    <table class="table table-striped table-bordered table-condensed" id="snaptable">
+                        <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Size   </th>
+                            <th>Unit   </th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Internal Energy</td>
+                                <td>[Ngas,1]</td>
+                                <td>(km/s)<sup>2</sup></td>
+                                <td>
+                                    <ul>
+                                        <li>The internal energy (energy per unit mass) in internal units.</li>
+                                        <li>Use to calculate gas temperature</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Entropy</td>
+                                <td>[Ngas,1]</td>
+                                <td>[km/s]<sup>2</sup>/((1e10 Msun/h)/(kpc/h)<sup>3</sup>)<sup>(gamma-1)</sup></td>
+                                <td>
+                                    <ul>
+                                        <li>Entropy of each gas particle</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pressure</td>
+                                <td>[Ngas,1]</td>
+                                <td>[km/s]<sup>2</sup>*((1e10 Msun/h)/(kpc/h)<sup>3</sup>)*a</td>
+                                <td>
+                                    <ul>
+                                        <li>Pressure of gas particle</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>EgyWtDensity</td>
+                                <td>[Ngas,1]</td>
+                                <td>(1e10 Msun/h)/(ckpc/h)<sup>3</sup></td>
+                                <td>
+                                    <ul>
+                                        <li>Entropy-weighted density of each gas particle</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ElectronAbundance</td>
+                                <td>[Ngas,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>The number density of free electrons per hydrogen atom.</li>
+                                        <li>Defined so that the maximum for fully ionized primordial gas is ∼1.15.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SmoothingLength</td>
+                                <td>[Ngas,1]</td>
+                                <td>ckpc/h</td>
+                                <td>
+                                    <ul>
+                                        <li>The SPH smoothing length of the gas particle.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Generation</td>
+                                <td>[Ngas,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>For gas particles, the number of stars spawned by the gas particle.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>H2Fraction</td>
+                                <td>[Ngas,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>Ionization fraction by mass.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Metallicity</td>
+                                <td>[Ngas,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>Mass fraction of elements beyond H and He.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>NeutralHydrogenFraction</td>
+                                <td>[Ngas,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>The neutral hydrogen fraction, derived from the cooling rate network.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>StarFormationRate</td>
+                                <td>[Ngas,1]</td>
+                                <td>Msun/yr(different from FOF)</td>
+                                <td>
+                                    <ul>
+                                        <li>The star formation rate for particles on the star-forming equation of state.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+        </li>
+        <li>
+            DM Particle (Type 1) Specific Data
+            <ul>
+                <li>All features are already described in the shared features.</li>
+                <li><p>Data structure:</p>
+                    <ul>
+                        <li>GroupID</li>
+                        <li>Mass</li>
+                        <li>Position</li>
+                        <li>Velocity</li>
+                        <li>Potential</li>
+                        <li>ID</li>
+                        <li>Generation</li>
+                    </ul>                        
+                </li>
+            </ul>
+        </li>
+        <li>
+            Star Particle (Type 4) Specific Data
+            <ul>
+                <li><p>Data structure:</p>
+                <ul>
+                <li>These are the features specific to Star particles.</li>
+                <li>Some features are shared with gas particles.</li>
+                <li><p>Detailed data structure:</p>
+                    <table class="table table-striped table-bordered table-condensed" id="snaptable">
+                        <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Size   </th>
+                            <th>Unit   </th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>StarFormationTime</td>
+                                <td>[Nstar,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>The scale factor at which thestar or black hole particle was formed.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Metallicity</td>
+                                <td>[Nstar,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>Mass fraction of elements beyond H and He.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Generation</td>
+                                <td>[Nstar,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>The number of Star particles spawned by the gas particle before this one.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            BH Particle (Type 5) Specific Data
+            <ul>
+                <li><p>Data structure:</p>
+
+                <ul>
+                <li>These are the features specific to BH particles.</li>
+                <li>Some features are shared with gas particles.</li>
+                <li><p>Detailed data structure:</p>
+                    <table class="table table-striped table-bordered table-condensed" id="snaptable">
+                        <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Size   </th>
+                            <th>Unit   </th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>BlackholeAccretionRate</td>
+                                <td>[Nbh,1]</td>
+                                <td>(1e10Msun)/(980 Myr)</td>
+                                <td>
+                                    <ul>
+                                        <li>The mass accretion rate of the blackhole.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mass</td>
+                                <td>[Nbh,1]</td>
+                                <td>1e10 Msun/h</td>
+                                <td>
+                                    <ul>
+                                        <li>Dynamical mass of the blackhole, used for force calculations.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BlackholeMass</td>
+                                <td>[Nbh,1]</td>
+                                <td>1e10 Msun/h</td>
+                                <td>
+                                    <ul>
+                                        <li>The accretion mass of the blackhole. This may differ from the dynamical mass.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BlackholeProgenitors</td>
+                                <td>[Nbh,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>The number of seed black holes that merged into this one.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BlackholeLastMergerID</td>
+                                <td>[Nbh,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>ID of the blackhole last swallowed by this one.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BlackholePressure</td>
+                                <td>[Nbh,1]</td>
+                                <td>[km/s]<sup>2</sup>*((1e10 Msun/h)/(kpc/h)<sup>3</sup>)*a</td>
+                                <td>
+                                    <ul>
+                                        <li>Pressure at the location of BH particle</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BlackholeMinPotPos</td>
+                                <td>[Nbh,3]</td>
+                                <td>ckpc/h</td>
+                                <td>
+                                    <ul>
+                                        <li>The position of the particle nearest the potential minimum of the halo the last time this black hole was active.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BlackholeGasVel</td>
+                                <td>[Nbh,3]</td>
+                                <td>(1/a)(km/s)</td>
+                                <td>
+                                    <ul>
+                                        <li>Velocity of the surrounding gas within the SPH kernel.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BlackholeMinPotVel</td>
+                                <td>[Nbh,3]</td>
+                                <td>(1/a)(km/s)</td>
+                                <td>
+                                    <ul>
+                                        <li>The velocity of the particle nearest thepotential minimum of the halo the last time this black hole was active.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Generation</td>
+                                <td>[Nbh,1]</td>
+                                <td>unitless</td>
+                                <td>
+                                    <ul>
+                                        <li>The number of BH particles spawned by the gas particle before this one</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2 class="mt-3">UML</h2>
+    <img class="img-fluid" src = "{% static 'webapps/images/UML.png' %}" alt="UML" width="1050" height="1200">
+{% endblock %}

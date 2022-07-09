@@ -1,0 +1,259 @@
+[
+  {
+    "model": "webapps.argument",
+    "pk": 1,
+    "fields": {
+      "name": "id",
+      "description": "ID of a pig folder.",
+      "restriction": "It should be an integer and in [184, 197, 208, 216, 222, 230, 237, 244, 251, 258, 265, 271]."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 2,
+    "fields": {
+      "name": "ptype",
+      "description": "Name of particle type.",
+      "restriction": "It should be a string and in ['gas', 'dm', 'star', 'bh']."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 3,
+    "fields": {
+      "name": "num",
+      "description": "Number of halos.",
+      "restriction": "It should be an integer and be between 1 to the max halo size."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 4,
+    "fields": {
+      "name": "halo_id",
+      "description": "ID of a halo.",
+      "restriction": "It should be an integer and be between 0 to the max halo ID."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 5,
+    "fields": {
+      "name": "type_id",
+      "description": "ID of particle type.",
+      "restriction": "It should be an integer and between [0,6)."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 6,
+    "fields": {
+      "name": "feature",
+      "description": "Feature of a particle type.",
+      "restriction": "It should be a string. Eg. \"Density\", \"ElectronAbundance\", \"H2Fraction\", etc."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 7,
+    "fields": {
+      "name": "group_id",
+      "description": "ID of a halo group.",
+      "restriction": "It should be an integer and be between 1 to the max halo group size."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 8,
+    "fields": {
+      "name": "group_query",
+      "description": "A list of group IDs.",
+      "restriction": "It should be a list and pass as a query parameter."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 9,
+    "fields": {
+      "name": "ID_list",
+      "description": "A list of group IDs.",
+      "restriction": "It should be a list and pass as request body with post method."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 10,
+    "fields": {
+      "name": "criterion",
+      "description": "Searching criterion.",
+      "restriction": "It should be a string and in ['bh_mass', 'gas_mass', 'dm_mass', 'star_mass', 'bh_mdot']."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 11,
+    "fields": {
+      "name": "range_query",
+      "description": "The min_range and max_range of a certain criterion.",
+      "restriction": "Both min_range and max_range are float, and pass as an optional query parameter."
+    }
+  },
+  {
+    "model": "webapps.argument",
+    "pk": 12,
+    "fields": {
+      "name": "fof_feature",
+      "description": "Feature of a FOFGroup.",
+      "restriction": "It should be a string. Eg. \"LengthByType\", \"OffsetByType\", \"MassByType\", etc."
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 1,
+    "fields": {
+      "name": "/pig/",
+      "description": "Get the list of PIG folders available for querying along with the halo numbers and redshifts",
+      "arguments": []
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 2,
+    "fields": {
+      "name": "/pig/{id}",
+      "description": "Get snapshot info in PIG_{id}",
+      "arguments": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 3,
+    "fields": {
+      "name": "/pig/{id}/{ptype}",
+      "description": "Get the list of {ptype} particle features available for querying in PIG_{id}",
+      "arguments": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 4,
+    "fields": {
+      "name": "\u200b/pig\u200b/{id}\u200b/fofgroup",
+      "description": "Get the list of FoFgroup features available for querying in PIG_{id}",
+      "arguments": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 5,
+    "fields": {
+      "name": "/pig\u200b/{id}/lengthbytype\u200b/n={num}",
+      "description": "Get the length info of the first {num} halos in PIG_{id}",
+      "arguments": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 7,
+    "fields": {
+      "name": "/pig\u200b/{id}/lengthbytype/{halo_id}/{type_id}",
+      "description": "Get the number of {type_id} particles in the {halo_id}th halo in PIG_{id}",
+      "arguments": [
+        1,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 9,
+    "fields": {
+      "name": "/pig/{id}/{ptype}/{feature}/{group_id}",
+      "description": "Get the {feature} data of {ptype} particle in {group_id} group and PIG_{id} folder",
+      "arguments": [
+        1,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 10,
+    "fields": {
+      "name": "/pig/{id}/lengthbytype/?{group_query}",
+      "description": "Execute {group_query} and get the length info of the a list of halos in PIG_{id}",
+      "arguments": [
+        1,
+        8
+      ]
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 12,
+    "fields": {
+      "name": "POST/pig/{id}/{ptype}/{feature}/, data = {ID_list}",
+      "description": "Get all {feature} data of {ptype} particle in the group {ID_list} and PIG_{id} folder",
+      "arguments": [
+        1,
+        2,
+        6,
+        9
+      ]
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 13,
+    "fields": {
+      "name": "/pig\u200b/{id}\u200b/search\u200b/{ptype}\u200b/{feature}\u200b/{criterion}/?{range_query}",
+      "description": "Get a dictionary of {groupid:data} for data of {feature} {ptype} particle within the searching {criterion}.",
+      "arguments": [
+        1,
+        2,
+        6,
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 14,
+    "fields": {
+      "name": "/pig/{id}/fofgroup/{fof_feature}/{group_id}",
+      "description": "Get the {feature} data of FOFGroup in {group_id} group and PIG_{id} folder",
+      "arguments": [
+        1,
+        7,
+        12
+      ]
+    }
+  },
+  {
+    "model": "webapps.endpoint",
+    "pk": 15,
+    "fields": {
+      "name": "/pig/{id}/search_id/{ptype}/{fof_feature}?{range_query}",
+      "description": "Get all halo IDs of {ptype} particles for {feature} matching some searching {range_query} criterion in a PIG_{id} folder",
+      "arguments": [
+        1,
+        2,
+        11,
+        12
+      ]
+    }
+  }
+]

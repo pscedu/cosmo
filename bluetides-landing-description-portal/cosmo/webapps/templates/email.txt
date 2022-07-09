@@ -1,0 +1,13 @@
+Hello,
+
+{{ contact_name }} has filled out the contact form.
+
+
+Their e-mail is {{ contact_email }}.
+
+
+Their message is as follows:
+
+{{ contact_message }}
+
+Have a great day!

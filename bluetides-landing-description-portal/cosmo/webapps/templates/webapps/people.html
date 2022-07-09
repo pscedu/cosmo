@@ -1,0 +1,129 @@
+{% extends 'webapps/header.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'webapps/css/main.css' %}">
+    <h2 class="mt-3">People</h2>
+    <h3>Research Team</h3>
+    <div class="row my-4">
+        <div class="col-3 text-center">
+            <h4 class="staff-name">
+                <a href="https://www.cmu.edu/physics/people/faculty/di-matteo.html" target="_blank">Tiziana DiMatteo (PI)</a>
+            </h4>
+            <img class="staff-picture" src="{% static 'webapps/images/people/tiziana.png' %}">
+            <p class="staff-institution mt-2">Carnegie Mellon University</p>
+            <p class="staff-caption">McWilliams Center for Cosmology</p>
+        </div>
+        <div class="col-3 text-center">
+            <h4 class="staff-name">
+                <a href="https://bids.berkeley.edu/people/yu-feng" target="_blank">Yu Feng (co-PI)</a>
+            </h4>
+            <img class="staff-picture" src="{% static 'webapps/images/people/feng_yu.png' %}">
+            <p class="staff-institution mt-2">Berkeley</p>
+            <p class="staff-caption">Institute for Data Science</p>
+        </div>
+        <div class="col-3 text-center">
+            <h4 class="staff-name">
+                <a href="https://www.cmu.edu/physics/people/faculty/croft.html" target="_blank">Rupert Croft</a>
+             </h4>
+            <img class="staff-picture" src="{% static 'webapps/images/people/rupert.png' %}">
+            <p class="staff-institution mt-2">Carnegie Mellon University</p>
+            <p class="staff-caption">McWilliams Center for Cosmology</p>
+        </div>
+        <div class="col-3 text-center">
+            <h4 class="staff-name">
+                <a href="https://sbird.github.io/" target="_blank">Simeon Bird</a>
+             </h4>
+            <img class="staff-picture" src="{% static 'webapps/images/people/simeon.png' %}">
+            <p class="staff-institution mt-2">UC Riverside</p>
+            <p class="staff-caption">Physics Department</p>
+        </div>
+    </div>
+    <div class="row my-4">
+        <div class="col-3 text-center">
+            <h4 class="staff-name">
+                <a href="https://yueyingn.github.io/" target="_blank">Yueying Ni</a>
+            </h4>
+            <img class="staff-picture" src="{% static 'webapps/images/people/yueying.png' %}">
+            <p class="staff-institution mt-2">Carnegie Mellon University</p>
+            <p class="staff-caption">McWilliams Center for Cosmology</p>
+        </div>
+        <div class="col-3 text-center">
+            <h4 class="staff-name">
+                <a href="" target="_blank">Nianyi Chen</a>
+            </h4>
+            <img class="staff-picture" src="{% static 'webapps/images/people/nianyi.png' %}">
+            <p class="staff-institution mt-2">Carnegie Mellon University</p>
+            <p class="staff-caption">McWilliams Center for Cosmology</p>
+        </div>
+        <div class="col-3 text-center">
+            <h4 class="staff-name">
+                <a href="https://iris.ucl.ac.uk/iris/browse/profile?upi=ATENN80" target="_blank">Ananth Tenneti</a>
+             </h4>
+            <img class="staff-picture" src="{% static 'webapps/images/people/ananth.png' %}">
+            <p class="staff-institution mt-2">University College London</p>
+            <p class="staff-caption">Dept of Space & Climate Physics</p>
+        </div>
+        <div class="col-3"></div>
+    </div>
+
+    <h3>Developers</h3>
+    <div class="row my-4">
+        <div class="col-3 text-center">
+            <h4 class="staff-name">
+                <a href="https://www.psc.edu/staff-directory/" target="_blank">Julian Uran</a>
+             </h4>
+            <img class="staff-picture" src="{% static 'webapps/images/people/julian.png' %}">
+            <p class="staff-institution mt-2">Pittsburgh Supercomputing Center</p>
+            <p class="staff-caption">Artificial Intelligence & Big Data</p>
+        </div>
+        <div class="col-3 text-center">
+            <h4 class="staff-name">
+                <a href="https://www.psc.edu/staff-directory/" target="_blank">Juan Puerto</a>
+             </h4>
+            <img class="staff-picture" src="{% static 'webapps/images/people/juan.png' %}">
+            <p class="staff-institution mt-2">Pittsburgh Supercomputing Center</p>
+            <p class="staff-caption">Advanced Systems & Operations</p>
+        </div>
+    </div>
+
+    <div class="row my-4">
+        <div class="col-6">
+            <h3>Acknowledgements:</h3>
+            <p>
+                The <b>BlueTides</b> simulation is run on the BlueWaters facility at the National Center for Supercomputing Applications.
+                Most of the simulations in this work are carried out on the bridges cluster.
+                Some of the simulations in this work are carried out on the Frontera supercomputing cluster.
+                The authors also acknowledge the Pittsburgh Supercomputing Center and Texas Advanced Computing Center (TACC) at the University of Texas at Austin for providing HPC resources that have contributed to the research results reported within this paper.
+                TDM acknowledges funding from NSF ACI-1614853, NSF AST-1616168, NASA ATP 19-ATP19-0084, 80NSSC20K0519
+                NASA ATP 80NSSC18K101, and NASA ATP NNX17AK56G.
+            </p>
+        </div>
+        <div class="col-6">
+            <h3>Contact Us:</h3>
+            <form method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Name" class="form-control" required="">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="email@email.com" class="form-control" required="">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" style="height:170px" required=""></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+                {% csrf_token %}
+              </form>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <img style="width:100%" src="{% static 'webapps/images/logo_banner.png' %}">
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,185 @@
+{% extends 'webapps/header.html' %}
+{% load static %}
+{% block content %}
+<h1 class="mt-3">Meeting a grand scientific challenge</h1>
+<h4 class="mt-3">The Bluetides simulation and the next frontier for the first galaxies and quasars at the cosmic dawn.</h4>
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="{% static 'webapps/images/BT3-gallery-plot.png' %}" target="_blank">
+          <img style="max-width:100%" class="d-block" src="{% static 'webapps/images/BT3-gallery-plot.png' %}" alt="...">
+      </a>
+      <div class="carousel-caption d-none d-md-block bg-dark" style="text-align:center; position: relative; left: 0; top: 0;">
+        <h2>Gallery of BlueTides simulation</h2>
+        <p> BlueTides was run on the BlueWaters super computer at NCSA with an allocation of over 8 million node-hours. It
+            simulates the universe from z=99 to z=6.5 with 0.7 trillion particles in 400 cMpc/h side volume. 
+            It is the largest hydrodynamic simulation ever performed at such high redshift. </p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <a href="{% static 'webapps/images/BT3-zoom-rect.png' %}" target="_blank">
+          <img style="max-width:100%" class="d-block" src="{% static 'webapps/images/BT3-zoom-rect.png' %}" alt="...">
+      </a>
+      <div class="carousel-caption d-none d-md-block bg-dark" style="text-align:center; position: relative; left: 0; top: 0;">
+        <h2>Zoom in view of the largest halo</h2>
+        <p> This is a zoomed-in visualization of the most massive halo (1e13 Msun) at z = 6.5 in BlueTides simulation. 
+            The image represents the huge dynamic range covered by BlueTides, showing the view of the whole 400 cMpc/h 
+            down to galaxy hosts of the most massive BHs on scale of 40 ckpc/h. </p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <a href="{% static 'webapps/images/BT3-MCP1.png' %}" target="_blank">
+          <img style="max-width:100%" class="d-block" src="{% static 'webapps/images/BT3-MCP1.png' %}" alt="...">
+      </a>
+      <div class="carousel-caption d-none d-md-block bg-dark" style="text-align:center; position: relative; left: 0; top: 0;">
+        <h2>Multiple fields of the hydro-simulation</h2>
+        <p> Left panel: a view of 40 cMpc/h sub-region centered at a large halo in BlueTides, showing in turn the dark matter, gas temperature, gas metallicity field.
+            Right panel: a zoomed-in view of 4 cMpc/h to show the detail structures in the halo surrounding. </p>
+      </div>
+      </div>
+  </div>
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="mt-3 row container">
+    <div class="panel col-md-6 container">
+        <p class="panel-heading h5">Subgrid Physics</p>
+        <ul class="simple">
+        <li>Star formation</li>
+        <li>AGN feedback</li>
+        <li>Primodial and Metal Cooling</li>
+        <li>Fluctuating UV background</li>
+    </ul>
+    </div>
+    <div class="panel col-md-6 container">
+        <p class="panel-heading h5">Non-numerical Algorithms</p>
+        <ul class="simple">
+        <li>Pencil Fourier Transformation domains</li>
+        <li>Distributed multi-threading BH-Tree</li>
+        <li>Uniformly-accessible striped snapshot files</li>
+        <li>Partition-based parallel sorting</li>
+        <li>Friend-of-Friend clustering and object identification</li>
+    </ul>
+    </div>
+</div>
+<div class="mt-3 row container">
+    <div class="panel col-md-6 container">
+        <p class="panel-heading h5">Computational Methods</p>
+        <ul class="simple">
+        <li>Pressure-entropy smoothed particle hydrodyanmics</li>
+        <li>Tree and Particle Mesh N-Body gravity solver</li>
+        </ul>
+    </div>
+    <div class="panel col-md-6 container">
+        <p class="panel-heading h5">Programming Environment</p>
+        <ul class="simple">
+        <li>Cray XE computing nodes with 16 floating units and 32 integer units</li>
+        <li>Cray C/C++ compiler with OpenMP support</li>
+        </ul>
+    </div>
+</div>
+
+<h3 class="mt-3">Scientific Motivation:</h3>
+
+<p class="ml-3">Detecting and understanding the first galaxies and black holes (BHs) one of the major current
+observational and theoretical challenges in galaxy formation.
+The first billion years of the cosmic history of our Universe is a pivotal time for cosmic structure formation.  The first galaxies and BHs set the stage:  the radiation from the first galaxies and
+black holes shapes the thermal evolution of the intergalactic medium,  ionizing the neutral plasma
+making the Universe transparent to UV radiation. The radiative and kinetic feedback exerted by stars
+and supernovae, as well as by Active Galactic Nuclei (AGNs) powered by the first BHs shapes the
+    interstellar medium, influencing how the following generations of stars and BHs evolve in turn.</p>
+
+<p class="ml-3">Our team has led the development of cosmological codes optimized to Petascale NSF leadership High Performance Facilities such as Bluewaters https://bluewaters.ncsa.illinois.edu/ and used these resources to understand how supermassive BHs and galaxies formed, from the smallest to the rarest and most luminous.  With close to one trillion particles we have carried out the BlueTides simulation on BlueWaters.  BlueTides has been run successfully on the entire set of compute nodes on Blue Waters using the latest version of our MP-Gadget code.
+BlueTides is the only simulation in the whole field of cosmology that is able to make direct contact
+    with, and predictions for the current and next generation of astronomical telescopes.</p>
+
+
+<h3 class="mt-3">Bluetides</h3>
+
+<p class="ml-3">Our team has led the development of cosmological codes adapted to Petascale supercomputers and used these resources to understand how supermassive blackholes and galaxies formed, from the smallest to the rarest and most luminous. With close to one trillion particles we have carried out the BlueTides simulation on BlueWaters. BlueTides has been run successfully on the entire set
+of compute nodes on Blue Waters using the latest version of our MP-Gadget code.
+    BlueWaters has made it possible for this rather heroic calculation to be carried out.</p>
+
+<p class="ml-3">A complete simulation of the universe at the epochs we are studying (first billion year of cosmic history) requires a small enough particle mass to model the dwarf galaxies which significantly contribute to the summed ionizing photon output of all sources. It also requires an enormous volume, of the order of 1 cubic Gigaparsec (1 Gpc^3 is 3x10^10 cubic light years) in order to
+capture the rarest and brightest objects, the first quasars. The first requirement is therefore equivalent to a high particle density, and the second to a large volume. Previous calculations on smaller HPC systems have either fulfilled the first, in a small volume, or the second, but with large particle masses, and so only resolved large galaxies.
+    With BlueWaters however, we have reached the point where the required number of particles (about one trillion) could be contained in memory, and the petaflop computing power was available to evolve them forward in time.
+    The BlueWaters project therefore made possible this qualitative advance, making possible arguably the first
+    complete simulation (at least in terms of the hydrodynamics and gravitational physics) of the creation of the first galaxies and large-scale structures in the universe. The application runs required essentially the full system: we used 20,250 nodes (648,000 core equivalents- the new version of the code can scale higher, but we left a safety margin) using 57 GB/node (89%).
+    This application thus uses 1.15 PB of memory – something only Blue Waters can provide, and which is 90% of the available memory.  Running such large jobs on a regular basis in a very timely fashion obviously requires advanced resource management, and the way the BlueWaters project has been set up made this possible. The project also helped our team with MPI+OpenMP development of the MP-Gadget simulation code and assisted with file handling issues including Lustre tuning.</p>
+
+<table border="1" class="docutils ml-3">
+    <colgroup>
+    <col width="32%">
+    <col width="68%">
+    </colgroup>
+    <tbody valign="top">
+        <tr>
+        <td>Number of Particles</td>
+        <td>697 Billion (Baryon + Dark Matter)</td>
+        </tr>
+        <tr>
+        <td>Boxsize</td>
+        <td>400 Mpc/h per side</td>
+        </tr>
+        <tr>
+        <td>Cosmology</td>
+        <td>WMAP 9 Year cosmology</td>
+        </tr>
+        <tr>
+        <td>MPI ranks</td>
+        <td>81000</td>
+        </tr>
+        <tr>
+        <td>OpenMP threads</td>
+        <td>8</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3 class="mt-3">The Dataset</h3>
+
+<p class="ml-3">Data processing the PB of simulation output necessitated some radical new ways of thinking and
+Blue Waters and PSC staff. Our simulations of the early Universe also matter because they blaze
+a trail for future calculations in the upcoming Track 1 systems (Frontera).  The reason for this is that
+we are evolving models forward in time for 1 billion years, rather than the 14 billion years necessary
+to cover the history of the Universe for the present day.  As a result, the science case for the early
+universe (which requires an enormous number of particles) allows us to carry out memory limited
+computations on BlueWaters, thus pioneering the running of petabyte scale simulations and handling
+and analysis of petabyte scale data stores, but without the enormously long runtime that would be
+needed to reach redshift z=0, the present day universe. With the next generation NSF leadership facility Frontera system the Bluetides full physics run will be instrumental (and a fundamental training set) to develop methods  evolve simulations BlueTides from the early universe all the way to the
+    Universe today.</p>
+
+
+<h3 class="mt-3">Supporting Software: MP-Gadget a Massively Parallel cosmological Tree-PM code</h3>
+<p class="ml-3">BlueTides is run on the entire set of compute nodes on Blue Waters using the latest version of our MP-Gadget code. Details of code developments and benchmarking has been provided through our PRAC projects. We do not propose significant code development for this part of the project.
+    Below is a very brief description of the main components.</p>
+
+<p class="ml-3">The general characteristics of GADGET are that of a flexible TreePM-SPH solver for cosmological fluids of dark matter, gas and stars. In addition to the basic physics of gravity and
+    hydrodynamics, the code also contains numerous further physics modules covering aspects of star formation and black hole growth.</p>
+
+<p class="ml-3">For dark matter, which is thought to behave as a perfectly collisionless fluid, the N-body method is used. As the only appreciable interaction of dark matter is through gravity, the evolution of the
+    system obeys the Poisson-Vlasov equation.  For the computation of the gravitational field, the code uses an FFT mesh solver on large-scales coupled to a hierarchical multipole expansion of the gravitational field based on a tree-algorithm  on small scales.</p>
+
+<p class="ml-3">Baryonic matter is evolved using a mass discretization of the Lagrangian equations of gas dynamics. The code employs a particle-based approach to hydrodynamics, where fluid properties at a given point are estimated by local kernel-averaging over neighboring particles, and smoothed versions of the equations of hydrodynamics are solved for the evolution of the fluid.</p>
+
+
+
+
+<h3 class="mt-3">State-of-the-art Cosmological Simulations:</h3>
+
+<p class="ml-3">Cosmological simulations follow the history and fate of the Universe, all the way  to the formation of all galaxies and their black holes from after the Big Bang to today's universe.  Dynamic range quickly makes this physically complex problem tractable only on the largest high-performance computational (HPC) national facilities.</p>
+
+<p class="ml-3">As telescopes and satellites become more powerful, observational data on galaxies,  quasars and the matter in intergalactic space becomes more detailed, and covers a greater  range of epochs and environments in the Universe. Our cosmological simulations must also  become more detailed and more wide ranging in order to make predictions and test the effects  of different physical processes and different dark matter candidates. In order to make direct contact with observations
+our galaxy formation and evolution models require solving the hydrodynamics of the gaseous component using methods of computational fluid dynamics.
+In hydrodynamic cosmological simulations, the complex non-linear interactions of  gravity, hydrodynamics, forming stars, and black holes are treated in large,  in a representative volume of the Universe. In this approach the physics at these much smaller galaxy scales is hence self-consistently coupled to large cosmological scales.  These are therefore our most powerful predictive calculations linking the part of the universe  we observe  (stars, black holes etc..) to the underlying dark matter and dark energy. Over the last few years it has become possible, with newly developed and more sophisticated codes,  higher fidelity physical models as well as large enough computational facilities,  to simulate statistically significant volumes of the universe
+    with sufficient detail to resolve the internal  structure of individual galaxies and follow the growth, mergers and evolution of black  holes in their centers.</p>
+
+{% endblock %}

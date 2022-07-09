@@ -1,0 +1,12 @@
+.staff-picture {
+  border-radius:5%; max-height:150px; max-width:150px;
+}
+.staff-institution {
+  font-weight: bold; border-bottom: solid black 2px;
+}
+.staff-name > a {
+  color: #263238;
+}
+.staff-name > a:hover {
+  text-decoration: underline;
+}

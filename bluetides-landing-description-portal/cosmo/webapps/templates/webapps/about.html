@@ -1,0 +1,141 @@
+{% extends 'webapps/header.html' %}
+{% block content %}
+    <h2 class="mt-3">BlueTides and COSMO</h2>
+    <p>This BlueTides portal is hosted as part of COSMO, a project funded by the <a
+            href="https://www.cmu.edu/cosmology/news/articles/2020-05-15_seed-grant-recipients.html">McWilliams / PSC
+        Seed Grant 2020</a> that encompasses the <a href="http://bluetides-project.org/" target="_blank">BlueTides
+        simulation dataset</a> as a proof of concept for a new way of sharing large volumes of data between researchers
+        and research institutions.
+    </p>
+
+    <p>The project description can be found right after this paragraph.</p>
+
+    <h3>COSMO, A Way to Share Large Volumes of Research Data</h3>
+    <h4>Project Summary</h4>
+    <p>Readily available data is key to unlock innovative Cosmology research and discovery. In this field, the large
+        volume of the data artifacts and their inherent challenges call for creative and resourceful approaches that
+        leverage HPC capabilities. Democratizing access to querying and analyzing large cosmology datasets would
+        significantly strengthen the field.</p>
+
+    <p>Currently, high volumes of data can only be accessed through a command-line interface, which constitutes a
+        substantial barrier to entry for physics students, physicists, and data scientists who are more accustomed to
+        newer ways of interacting with computers. Establishing a way to access data that is more readily available would
+        benefit the Cosmology community, including the members of the McWilliams Center for Cosmology . Additional
+        positive outcomes would come from allowing members of the McWilliams Center for Cosmology to quickly and
+        reliably showcase and share results.</p>
+
+    <p>The BlueTides simulation project within the McWilliams Center for Cosmology is currently storing terabytes of
+        files on computer systems including the Bridges supercomputer at the Pittsburgh Supercomputing Center (PSC).
+        That data contains both input and result files of interest. As of today, these data artifacts cannot be easily
+        accessed by external researchers. The activities required to grant access to external users include requesting
+        and obtaining a user XSEDE account, permission granting for the external user(s), learning the file structure,
+        navigating XSEDE processes and the batch scheduler (Slurm), and monitoring and managing users’ resource
+        consumption. Considering many of these steps are manual and can take days, it would be vastly more effective to
+        develop an alternative, standardized process to provide easy access to large volumes of data, and greatly
+        improving time-to-science by avoiding investing effort into secondary processes.</p>
+
+    <p>We propose <i>COSMO, a REST API and data-sharing portal for sharing cosmology data</i>. COSMO is an easy-to-use
+        data-sharing API that would ease access to BlueTides cosmology data for internal and external Cosmology
+        researchers. COSMO will lay the foundations for providing indexing and search capabilities for datasets, data
+        attribution, and readily execution of common analysis tasks. Support from the McWilliams Center for Cosmology in
+        the form of advanced domain expertise and data provision is required. Additional expertise in software
+        development and Big Data technologies will be needed and provided by members of the AI and Big Data group at the
+        Pittsburgh Supercomputing Center.</p>
+
+    <h3>New Idea and Leverage</h3>
+    Sharing large volumes of data can be accomplished in a number of ways. The following were identified as options
+    pertinent for the McWilliams Center for Cosmology needs that satisfy different requirements to different extents:
+    <ul>
+        <li>Deploying a web server to host and serve the data. Results would be made available by listing the directory
+            contents and having users request and download individual files of interest.
+        </li>
+        <li>Deploying a simple website offering a structured summary of the results available. Files would be available
+            for download via this simple GUI.
+        </li>
+        <li>Developing and deploying a frontend that, powered by a powerful database, allows the execution of
+            pre-defined queries on the data.
+        </li>
+        <li>Developing and deploying a REST API exposing the data through a number of documented endpoints for querying
+            it and interacting with it as required. Providing clear documentation with examples of how to use the data
+            through the API, how to get visualizations from it, and a description of the different entities that
+            integrate it.
+        </li>
+    </ul>
+
+    <p>
+    The first two options are approached by projects such as BlueTides, in which files were made available over a CMU
+    Physics department <a href="https://web.phys.cmu.edu/~yfeng1/BlueTides/" target="_blank">web page [1]</a> and
+    visualizations were shared over <a href="http://bluetides-project.org/" target="_blank">the project page [2]</a>.
+    This solution limits the number of visualizations shown to users over the web. Both BlueTides and sites such as
+    <a href="https://www.illustris-project.org/data/downloads/Illustris-1/" target="_blank"><i>"The Illustris
+        Project"</i> [3]</a>, which publish data in a more user-friendly way, require users to download heavy
+    files for further inspection.
+    </p>
+
+    <p>
+    The third option limits the number of predefined queries to run against the database for querying the data, as well
+    as requiring users to be fluent in SQL for running additional queries.
+    </p>
+
+    <p>
+    The proposed project, COSMO, opts for the fourth option which would combine the strengths of the former ones while
+    offering a way to query data without having to transfer and locally process it. This option would expose a
+    standardized way to access the data that is language agnostic. Researchers would leverage the clear API
+    documentation to navigate the resources, and the McWilliams Center for Cosmology in collaboration with the
+    Pittsburgh Supercomputing Center would offer and manage user accounts as well as compute and storage resources that
+    power user data queries.
+    </p>
+
+    <p>
+    A modest seed grant would fund the initial implementation of the COSMO REST API to query data available on PSC’s
+    Bridges and get results on the go. The success of the COSMO API project is expected to lead into a Cosmology data
+    portal with capabilities for provenance, DOIs, workflow orchestration, and citations. PSC's experience with the
+    <a href="https://www.brainimagelibrary.org" target="_blank">Brain Image Library (BIL) [4]</a> and
+    <a href="https://www.nature.com/articles/s41586-019-1629-x" target="_blank">Human BioMolecular Atlas Program
+        (HuBMAP) [5]</a> are domain-specific projects where this data comprehensive approach has proven successful.
+    </p>
+
+    <p>Additionally, a data-sharing portal for directly serving the complete dataset directories could be accompanying the
+    REST API, for having multiple ways to access the data based on the need, including data transfers via Globus.</p>
+
+    <h3>McWilliams Center for Cosmology and PSC Collaboration</h3>
+    Developing the COSMO REST API project will involve the following activities:
+    <ol>
+        <li>Defining the entities to be
+            available for querying.
+        </li>
+        <li>Defining the relationships and interactions between those entities to inform the options
+            to query the data.
+        </li>
+    </ol>
+    Those tasks require both McWilliams Center for Cosmology and PSC resources to work in synchrony in order to approach
+    the problem effectively. Relevant parameters to access the data entities are domain-specific and need to be
+    validated during the implementation process. Additionally, a Jupyter notebook will be provided with examples for
+    running simple queries and visualizations to lower the barrier of entry to querying data for new users.
+
+    <h4>Main Collaborators</h4>
+    <ul>
+        <li>Dr. Tiziana Di Matteo</li>
+        <li>Nianyi Chen</li>
+        <li>Wanting Huang</li>
+        <li>Yueying Ni</li>
+        <li>Juan Puerto</li>
+        <li>Paola Buitrago</li>
+        <li>Dr. Nicholas Nystrom</li>
+        <li>Julian Uran</li>
+    </ul>
+
+    <h3>References</h3>
+    <ul>
+        <li>[1] https://web.phys.cmu.edu/~yfeng1/BlueTides/ BlueTides download page.</li>
+        <li>[2] http://bluetides-project.org/ BlueTides project page.</li>
+        <li>[3] https://www.illustris-project.org/data/downloads/Illustris-1/ The Illustris Project</li>
+        <li>[4] https://www.brainimagelibrary.org Brain Image Library</li>
+        <li>[5] Snyder, M. P., Lin, S., Posgai, A., Atkinson, M., Regev, A., Rood, J., Rosen, O.,
+            Gaffney, L., Hupalowska, A., Satija, R., Gehlenborg, N., Shendure, J., Laskin, J., Harbury,
+            P., Nystrom, N. A., Bar-Joseph, Z., Zhang, K., Börner, K., Lin, Y., Conroy, R.,
+            Procaccini, D., Roy, A. L., Pillai, A., Brown, M., and Galis, Z. S., The human body
+            at cellular resolution: the NIH Human Biomolecular Atlas Program. Nature 574, 187–192 (2019).
+        </li>
+    </ul>
+{% endblock %}

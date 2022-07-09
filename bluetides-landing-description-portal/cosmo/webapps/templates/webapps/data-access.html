@@ -1,0 +1,47 @@
+{% extends 'webapps/header.html' %}
+{% block content %}
+    <h2 class="mt-3">Data Access</h2>
+
+    <p class="ml-3 mr-3">BlueTides consists of three elements:
+        The <a href="http://bluetides-project.org/" target="_blank">BlueTides Simulation</a> +
+        <a href="{{ BASE_API_URL }}" target="_blank">BlueTides API</a> +
+        <a href="{{ BASE_DATA_SHARING_PORTAL_URL }}" target="_blank">BlueTides Data-Sharing Portal</a>.</p>
+
+    <p class="ml-3 mr-3">The <a href="http://bluetides-project.org/" target="_blank">BlueTides</a> simulation project
+        within the McWilliams Center for Cosmology is currently storing terabytes of files on computer systems including
+        the Bridges supercomputer at the <a href="https://www.psc.edu/" target="_blank">Pittsburgh Supercomputing
+            Center</a>. That data contains both input and result files of interest, and these data artifacts
+        can be now accessed by researchers either by <a href="{{ BASE_DATA_SHARING_PORTAL_URL }}"> downloading the
+            simulation files</a>, or by exploring the data using <a href="{{ BASE_API_URL }}">an API.</a></p>
+
+    <h4 class="mt-4">BlueTides API</h4>
+    <p class="ml-3 mr-3"><a href="{{ BASE_API_URL }}" target="_blank">BlueTides-API</a> is a REST API for the
+        BlueTides Cosmology data. It exposes the data through a number of
+        documented endpoints for querying it and interacting with it. It is also easy-to-use and eases access to
+        BlueTides cosmology data for internal and external Cosmology researchers. COSMO can lay the foundations for
+        providing indexing and search capabilities for datasets, data attribution, and readily execution of common
+        analysis tasks. This website provides clear documentation with examples of how to use the data through the API,
+        how to get visualizations from it, and a description of the different entities that integrate it.</p>
+
+    <h4 class="mt-4">BlueTides Data-Sharing Portal</h4>
+    <p class="ml-3 mr-3">The <a href="{{ BASE_DATA_SHARING_PORTAL_URL }}" target="_blank">BlueTides Data-Sharing
+        Portal</a>
+        a web page for browsing the different directories that compose the BlueTides Dataset, and you should use it when
+        there is a need to download specific folders from the dataset over a web browser; or when you would like to
+        transfer the complete dataset to your HPC resources over Globus (outside <a
+                href="https://portal.xsede.org/psc-bridges">PSC's Bridges</a>).
+    </p>
+
+    <h4 class="mt-4">Navigation</h4>
+    <p class="ml-3 mr-3">In this web portal, there are three sections: API Reference, Data Structure, and Tutorial.</p>
+    <ul class="ml-3 mr-3">
+        <li><b>Data Structure:</b> provides a detailed description of each field of the BlueTides data.</li>
+        <li><b>API Reference:</b> has the endpoint listings and corresponding descriptions. There are also full path
+            links to those endpoints, detailed introduction to the query parameters, response code, and a glossary of
+            the main terms used over the portal.
+        </li>
+        <li><b>API Tutorial:</b> it is a quick-start showing how to use the REST API.</li>
+        <li><b>API Access:</b> OpenAI web interface for interacting and exploring the REST API.</li>
+        <li><b>Data-Sharing Portal:</b> Web interface for navigating and downloading the BlueTides data files.</li>
+    </ul>
+{% endblock %}
